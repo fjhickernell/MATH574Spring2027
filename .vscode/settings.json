@@ -1,0 +1,7 @@
+{
+  "files.exclude": {
+    "**/.quarto": true,
+    "**/_site": true
+  },
+  "python.defaultInterpreterPath": "/opt/miniconda3/envs/qmcpy/bin/python"
+}

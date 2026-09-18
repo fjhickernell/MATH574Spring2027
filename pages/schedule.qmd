@@ -1,0 +1,70 @@
+---
+title: "Schedule"
+css: ../assets/css/schedule.css
+---
+
+Both Spring 2027 courses are assumed to meet on **Tuesdays and Thursdays**. **MATH 574 meeting time and room: TBD.** This blank teaching schedule awaits the official timetable and course-content planning.
+
+Dates follow the [Illinois Tech academic calendar](https://www.iit.edu/registrar/academic-calendar), checked September 18, 2026. Week numbers count semester calendar weeks, including Spring Break. Topic and materials cells are intentionally blank.
+
+## January
+
+| Week | Date | Topic | Slides / Materials |
+|---:|:---|:---|:---|
+| 1 | Tue Jan 12 |  | |
+| 1 | Thu Jan 14 |  | |
+| 2 | Tue Jan 19 |  | |
+| 2 | Thu Jan 21 |  | |
+| 3 | Tue Jan 26 |  | |
+| 3 | Thu Jan 28 |  | |
+
+## February
+
+| Week | Date | Topic | Slides / Materials |
+|---:|:---|:---|:---|
+| 4 | Tue Feb 2 |  | |
+| 4 | Thu Feb 4 |  | |
+| 5 | Tue Feb 9 |  | |
+| 5 | Thu Feb 11 |  | |
+| 6 | Tue Feb 16 |  | |
+| 6 | Thu Feb 18 |  | |
+| 7 | Tue Feb 23 |  | |
+| 7 | Thu Feb 25 |  | |
+
+## March
+
+| Week | Date | Topic | Slides / Materials |
+|---:|:---|:---|:---|
+| 8 | Tue Mar 2 |  | |
+| 8 | Thu Mar 4 |  | |
+| 9 | Tue Mar 9 |  | |
+| 9 | Thu Mar 11 |  | |
+| 10 | Tue Mar 16 | **No class — Spring Break** | |
+| 10 | Thu Mar 18 | **No class — Spring Break** | |
+| 11 | Tue Mar 23 |  | |
+| 11 | Thu Mar 25 |  | |
+| 12 | Tue Mar 30 |  | |
+
+## April
+
+| Week | Date | Topic | Slides / Materials |
+|---:|:---|:---|:---|
+| 12 | Thu Apr 1 |  | |
+| 13 | Tue Apr 6 |  | |
+| 13 | Thu Apr 8 |  | |
+| 14 | Tue Apr 13 |  | |
+| 14 | Thu Apr 15 |  | |
+| 15 | Tue Apr 20 |  | |
+| 15 | Thu Apr 22 |  | |
+| 16 | Tue Apr 27 |  | |
+| 16 | Thu Apr 29 |  | |
+
+The university's last day of courses is Saturday, May 1. Under the assumed Tuesday/Thursday pattern, Thursday, April 29 is the last regular meeting. There are 30 regular meetings, excluding March 16 and March 18 during Spring Break.
+
+## Final Examinations
+
+The university examination period is May 3–8. MATH 574's exact examination slot is pending.
+
+| Week | Date | Topic | Slides / Materials |
+|---:|:---|:---|:---|
+| 17 | TBD, May 3–8 | **Final examination — date, time, and room TBD** | |

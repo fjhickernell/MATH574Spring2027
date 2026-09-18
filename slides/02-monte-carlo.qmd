@@ -1,0 +1,21 @@
+---
+title: "Monte Carlo Methods"
+subtitle: "MATH 574 · Spring 2027 · Outline under construction"
+deck_short_title: "Monte Carlo Methods"
+format:
+  revealjs:
+    footer: "© 2027 Fred J. Hickernell · MATH 574 · Outline under construction"
+---
+
+## Course Map
+
+Monte Carlo Methods
+
+- Planned coverage: Simulation, Monte Carlo integration, and assessment of sampling error
+- Detailed exposition, examples, and exercises pending instructor review
+
+## Materials Pending
+
+- Lecture content to be developed
+- Companion notebooks to be selected and validated
+- Return to the [course website](../index.html)

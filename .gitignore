@@ -1,0 +1,37 @@
+# Quarto output and caches
+.quarto/
+_site/
+site_libs/
+*_files/
+**/*.quarto_ipynb
+.quarto-watch-logs/
+
+# macOS and local environment files
+.DS_Store
+**/.DS_Store
+.Renviron
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter checkpoints and JupyterLab Desktop project state
+**/.ipynb_checkpoints/
+**/.jupyter/
+
+/.quarto/
+
+# HTML rendered beside course Quarto sources
+/index.html
+/assignments/*.html
+/pages/*.html
+/slides/*.html
+
+# Private instructor materials must live outside this public-source repository
+private/
+assessment-drafts/
+rosters/
+grades/
+*.build.lock

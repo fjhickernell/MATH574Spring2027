@@ -1,0 +1,15 @@
+---
+title: "Resources"
+---
+
+## Course References
+
+Textbook and reference selections remain to be decided.
+
+## Shared Resources
+
+- [Statistical questions](../classlib/classlib/quarto/pages/stats-qs.qmd)
+- [Accessing the repository with submodules](../classlib/classlib/quarto/pages/git-clone-update-with-submodules.qmd)
+- [Course policies](policies.qmd)
+
+The standard computational runtime is the `qmcpy` environment and Jupyter kernel. Course-specific setup instructions will grow with the notebooks.

@@ -1,0 +1,21 @@
+---
+title: "Markov Chain Monte Carlo"
+subtitle: "MATH 574 · Spring 2027 · Outline under construction"
+deck_short_title: "Markov Chain Monte Carlo"
+format:
+  revealjs:
+    footer: "© 2027 Fred J. Hickernell · MATH 574 · Outline under construction"
+---
+
+## Course Map
+
+Markov Chain Monte Carlo
+
+- Planned coverage: Metropolis methods, computational diagnostics, and effective sample size
+- Detailed exposition, examples, and exercises pending instructor review
+
+## Materials Pending
+
+- Lecture content to be developed
+- Companion notebooks to be selected and validated
+- Return to the [course website](../index.html)

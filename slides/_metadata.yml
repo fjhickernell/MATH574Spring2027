@@ -1,0 +1,15 @@
+metadata-files:
+  - ../course-metadata.yml
+  - ../classlib/classlib/quarto/slides/hickernell-slides.yml
+course_title: "MATH 574 — Spring 2027"
+author: "Fred J. Hickernell"
+course_website: "../"
+format:
+  revealjs:
+    footer: "© 2027 Fred J. Hickernell · MATH 574 · Spring 2027 · Outline under construction"
+execute:
+  warning: false
+  message: false
+
+reveal-options:
+  disableLayout: false

@@ -1,0 +1,5 @@
+---
+title: "Jupyter Notebooks"
+---
+
+Computational notebooks will be linked here after local execution validation and instructor review. No notebooks have been released for Spring 2027.

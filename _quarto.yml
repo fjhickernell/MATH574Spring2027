@@ -1,0 +1,61 @@
+project:
+  type: website
+  render:
+    - "*.qmd"
+    - "pages/**/*.qmd"
+    - "classlib/classlib/quarto/pages/stats-qs.qmd"
+    - "classlib/classlib/quarto/pages/git-clone-update-with-submodules.qmd"
+    - "!slides/**"
+    - "!classlib/website/**"
+    - "!classlib/classlib/quarto/snippets/**"
+    - "!classlib/classlib/quarto/pages/policies.qmd"
+    - "!classlib/classlib/quarto/pages/interesting-articles-links.qmd"
+  resources:
+    - assets/**
+    - classlib/classlib/quarto/**
+    - classlib/classlib/notebooks/**
+metadata-files:
+  - course-metadata.yml
+  - classlib/classlib/quarto/metadata/hickernell-texts.yml
+  - classlib/classlib/quarto/website/hickernell-website.yml
+metadata:
+  instructor_photo: classlib/classlib/quarto/assets/images/fredplaidshirtcropped.jpg
+format:
+  html:
+    css:
+      - classlib/classlib/quarto/website/hickernell-website.css
+      - assets/css/construction.css
+    include-before-body: assets/construction-banner.html
+    link-external-newwindow: true
+website:
+  title: "MATH 574 — Spring 2027"
+  navbar:
+    logo: classlib/classlib/quarto/assets/images/normal-scatter.png
+    left:
+      - href: index.qmd
+        text: Welcome
+      - href: pages/schedule.qmd
+        text: Schedule
+      - href: pages/slides.qmd
+        text: Slides
+      - href: pages/notebooks.qmd
+        text: Notebooks
+      - href: pages/homework.qmd
+        text: Assignments
+      - href: pages/tests.qmd
+        text: Tests
+      - href: pages/project.qmd
+        text: Project
+      - href: pages/resources.qmd
+        text: Resources
+    right:
+      - href: pages/canvas.qmd
+        text: Canvas
+  page-footer:
+    left: "© 2027 Fred J. Hickernell · Illinois Institute of Technology"
+course_repo: "https://github.com/fjhickernell/MATH574Spring2027"
+course_repo_label: "MATH574Spring2027 on GitHub"
+jupyter: qmcpy
+execute:
+  env:
+    RETICULATE_PYTHON: /opt/miniconda3/envs/qmcpy/bin/python

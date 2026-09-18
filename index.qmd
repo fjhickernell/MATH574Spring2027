@@ -1,0 +1,44 @@
+---
+title: "MATH 574: Bayesian Computational Statistics"
+subtitle: "Spring 2027"
+title-block-banner: false
+---
+
+::: {.key-point}
+This course website is being prepared. Tuesdays and Thursdays are assumed for both Spring courses; meeting times and rooms are TBD. Course policies and requirements await confirmation.
+:::
+
+## Course Overview
+
+A planned course in Bayesian inference and its computational methods, emphasizing Monte Carlo methods. The role of Gaussian processes and the final course scope remain to be decided.
+
+## Instructor
+
+[![]({{< meta instructor_photo >}}){.instructor-photo alt="Fred J. Hickernell"}]({{< meta instructor_photo >}})
+
+Fred J. Hickernell · Illinois Institute of Technology\
+Email: <hickernell@illinoistech.edu>
+
+Office hours and teaching-assistant details will be announced.
+
+## Planned Topics
+
+This is a provisional teaching outline, rather than a finalized syllabus. Textbooks, prerequisites, assessment policies, and optional topics remain to be confirmed.
+
+- **Bayesian Inference:** Likelihoods, priors, posteriors, and posterior prediction.
+- **Monte Carlo Methods:** Simulation, Monte Carlo integration, and assessment of sampling error.
+- **Markov Chain Monte Carlo:** Metropolis methods, computational diagnostics, and effective sample size.
+- **Selected Topics:** Possible Gaussian process models; scope to be decided.
+
+## Course Information
+
+| Resource | Contents |
+|:---|:---|
+| [Schedule](pages/schedule.qmd) | Draft meeting pattern and topic sequence |
+| [Slides](pages/slides.qmd) | Outline decks under construction |
+| [Notebooks](pages/notebooks.qmd) | Computational materials as they become available |
+| [Assignments](pages/homework.qmd) | Released assignments and submission instructions |
+| [Tests](pages/tests.qmd) | Assessment information when confirmed |
+| [Project](pages/project.qmd) | Project requirements and peer assessment |
+| [Resources](pages/resources.qmd) | Software, statistical questions, and access instructions |
+| [Canvas](pages/canvas.qmd) | Course link pending |

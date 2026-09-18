@@ -1,0 +1,12 @@
+---
+title: "Lecture Slides"
+---
+
+These decks are skeleton outlines under construction. They are not completed lecture materials.
+
+| Unit | Deck | Status |
+|:---|:---|:---|
+| 1 | [Bayesian Inference](../slides/01-bayesian-inference.html) | Outline only |
+| 2 | [Monte Carlo Methods](../slides/02-monte-carlo.html) | Outline only |
+| 3 | [Markov Chain Monte Carlo](../slides/03-mcmc.html) | Outline only |
+| 4 | [Selected Topics](../slides/04-selected-topics.html) | Outline only |

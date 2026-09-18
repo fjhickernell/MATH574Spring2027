@@ -1,0 +1,11 @@
+project:
+  type: default
+  output-dir: _site
+  render: ["*.qmd"]
+  resources:
+    - ../classlib/classlib/quarto/**
+format:
+  revealjs: {}
+course_repo: "https://github.com/fjhickernell/MATH574Spring2027"
+course_repo_label: "MATH574Spring2027 on GitHub"
+jupyter: qmcpy

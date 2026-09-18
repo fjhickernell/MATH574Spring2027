@@ -1,0 +1,289 @@
+[
+  {
+    "objectID": "pages/tests.html",
+    "href": "pages/tests.html",
+    "title": "Tests and Examinations",
+    "section": "",
+    "text": "UNDER CONSTRUCTIONSpring 2027 preparation is in progress. Schedules, materials, and course policies are provisional.\n\n\n\n\nAssessment dates, coverage, allowed materials, and grading weights are pending confirmation. Released worked answers will appear here only after grading is complete."
+  },
+  {
+    "objectID": "pages/schedule.html",
+    "href": "pages/schedule.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "UNDER CONSTRUCTIONSpring 2027 preparation is in progress. Schedules, materials, and course policies are provisional.\nBoth Spring 2027 courses are assumed to meet on Tuesdays and Thursdays. MATH 574 meeting time and room: TBD. This blank teaching schedule awaits the official timetable and course-content planning.\nDates follow the Illinois Tech academic calendar, checked September 18, 2026. Week numbers count semester calendar weeks, including Spring Break. Topic and materials cells are intentionally blank."
+  },
+  {
+    "objectID": "pages/schedule.html#january",
+    "href": "pages/schedule.html#january",
+    "title": "Schedule",
+    "section": "January",
+    "text": "January\n\n\n\nWeek\nDate\nTopic\nSlides / Materials\n\n\n\n\n1\nTue Jan 12\n\n\n\n\n1\nThu Jan 14\n\n\n\n\n2\nTue Jan 19\n\n\n\n\n2\nThu Jan 21\n\n\n\n\n3\nTue Jan 26\n\n\n\n\n3\nThu Jan 28"
+  },
+  {
+    "objectID": "pages/schedule.html#february",
+    "href": "pages/schedule.html#february",
+    "title": "Schedule",
+    "section": "February",
+    "text": "February\n\n\n\nWeek\nDate\nTopic\nSlides / Materials\n\n\n\n\n4\nTue Feb 2\n\n\n\n\n4\nThu Feb 4\n\n\n\n\n5\nTue Feb 9\n\n\n\n\n5\nThu Feb 11\n\n\n\n\n6\nTue Feb 16\n\n\n\n\n6\nThu Feb 18\n\n\n\n\n7\nTue Feb 23\n\n\n\n\n7\nThu Feb 25"
+  },
+  {
+    "objectID": "pages/schedule.html#march",
+    "href": "pages/schedule.html#march",
+    "title": "Schedule",
+    "section": "March",
+    "text": "March\n\n\n\nWeek\nDate\nTopic\nSlides / Materials\n\n\n\n\n8\nTue Mar 2\n\n\n\n\n8\nThu Mar 4\n\n\n\n\n9\nTue Mar 9\n\n\n\n\n9\nThu Mar 11\n\n\n\n\n10\nTue Mar 16\nNo class — Spring Break\n\n\n\n10\nThu Mar 18\nNo class — Spring Break\n\n\n\n11\nTue Mar 23\n\n\n\n\n11\nThu Mar 25\n\n\n\n\n12\nTue Mar 30"
+  },
+  {
+    "objectID": "pages/schedule.html#april",
+    "href": "pages/schedule.html#april",
+    "title": "Schedule",
+    "section": "April",
+    "text": "April\n\n\n\nWeek\nDate\nTopic\nSlides / Materials\n\n\n\n\n12\nThu Apr 1\n\n\n\n\n13\nTue Apr 6\n\n\n\n\n13\nThu Apr 8\n\n\n\n\n14\nTue Apr 13\n\n\n\n\n14\nThu Apr 15\n\n\n\n\n15\nTue Apr 20\n\n\n\n\n15\nThu Apr 22\n\n\n\n\n16\nTue Apr 27\n\n\n\n\n16\nThu Apr 29\n\n\n\n\n\nThe university’s last day of courses is Saturday, May 1. Under the assumed Tuesday/Thursday pattern, Thursday, April 29 is the last regular meeting. There are 30 regular meetings, excluding March 16 and March 18 during Spring Break."
+  },
+  {
+    "objectID": "pages/schedule.html#final-examinations",
+    "href": "pages/schedule.html#final-examinations",
+    "title": "Schedule",
+    "section": "Final Examinations",
+    "text": "Final Examinations\nThe university examination period is May 3–8. MATH 574’s exact examination slot is pending.\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\nSlides / Materials\n\n\n\n\n17\nTBD, May 3–8\nFinal examination — date, time, and room TBD"
+  },
+  {
+    "objectID": "pages/project.html",
+    "href": "pages/project.html",
+    "title": "Project",
+    "section": "",
+    "text": "UNDER CONSTRUCTIONSpring 2027 preparation is in progress. Schedules, materials, and course policies are provisional.\nThe project follows the Spring 2026 MATH 563 requirements. The same project requirements apply to MATH 563 and MATH 574 in Spring 2027. Course-specific submission and scheduling links will be added when available.\nYou are required to complete a course project. The goal is to practice communicating statistical ideas clearly and critically—like you are reporting to colleagues whether a line of work is worth pursuing."
+  },
+  {
+    "objectID": "pages/project.html#types",
+    "href": "pages/project.html#types",
+    "title": "Project",
+    "section": "Types",
+    "text": "Types\nChoose one of the following project types:\n\nResearch article review\nPick a scholarly research article related to topics in statistical inference (e.g., estimation, testing, likelihood/Bayes, asymptotics, bootstrap, identifiability, robustness, missing data, multiple testing, etc.) that does not duplicate a topic discussed in class. Your article must be different from your classmates’ choices.\nSimulation or data analysis study\nDesign and carry out a focused study that uses computation to investigate a statistical question. Examples:\n\nAnalyze a data set of interest, but go beyond any existing analysis,\nCompare procedures (power, bias, coverage, MSE) under realistic departures from assumptions,\nIllustrate a theorem/asymptotic approximation with finite-sample behavior,\nReplicate and critique an empirical claim from a paper,\nBuild a small method “pipeline” (e.g., model selection + inference) and evaluate it."
+  },
+  {
+    "objectID": "pages/project.html#submission",
+    "href": "pages/project.html#submission",
+    "title": "Project",
+    "section": "Submission",
+    "text": "Submission\n\nSubmit your project topic using the Spring 2027 topic submission form when it is available. The deadline is listed in the course schedule; dates not yet listed remain TBD. Revised topics use the same course form.\nAfter the topic deadline, check the course topic list to confirm approval and double-check presentation arrangements. The Spring 2027 form and topic-list links will be added after setup.\nPrepare a 15-minute oral presentation (+5 minutes for questions) and a handout for the audience."
+  },
+  {
+    "objectID": "pages/project.html#presentations-and-observations",
+    "href": "pages/project.html#presentations-and-observations",
+    "title": "Project",
+    "section": "Presentations and observations",
+    "text": "Presentations and observations\n\nConsult the course schedule for presentation dates and the presentation-slot selection deadline. Dates and arrangements not yet listed remain TBD.\nAssign yourself to a presentation slot using the Spring 2027 course scheduling spreadsheet when it is available. Its link will be added after setup.\nEach student must observe and assess TWO other presentations (using the Project Assessment Form).\nYour project grade is likely to suffer if:\n\nyou are not on time for your presentation or observations,\nyou are not prepared,\nyou do not observe at least two presentations, and/or\nyour observer feedback is not significant."
+  },
+  {
+    "objectID": "pages/project.html#important-to-keep-in-mind",
+    "href": "pages/project.html#important-to-keep-in-mind",
+    "title": "Project",
+    "section": "Important to keep in mind",
+    "text": "Important to keep in mind\nYour presentation should be from the perspective that you are reporting to your colleagues why this article/method/result is or is not worth pursuing further.\n\nYour audience is smart, but not specialized in your exact topic. Provide background, definitions, and motivation.\nBe critical: clearly state strengths and weaknesses, and what assumptions matter.\nYou have access to tools (including AI) that were not commonly available a few years ago—so I will expect more polish and deeper checking.\nI may not be an expert in what you present, but I expect you to be, and I will ask probing questions.\nYour grade will depend on both:\n\nhow clearly you present, and\nhow well you answer questions."
+  },
+  {
+    "objectID": "pages/project.html#guidelines",
+    "href": "pages/project.html#guidelines",
+    "title": "Project",
+    "section": "Guidelines",
+    "text": "Guidelines\n\nArticle review.\n\nChoose a topic not already covered in lecture in essentially the same way.\nPrefer papers with enough technical content to support real discussion (not just an application report).\nYour job is to explain the idea, demonstrate it on a simple example, and assess it.\n\nSimulation/data study.\n\nKeep the scope appropriate: one sharp question is better than many shallow ones.\nPredefine your evaluation metrics (e.g., coverage, power, MSE, false discovery rate).\nUse clear plots/tables and report uncertainty when relevant.\n\n\nGeneral presentation advice:\n\nKeep the big picture in view; don’t get bogged down in algebra.\nChoose one simple example that illustrates the main point.\nLook at your audience while speaking; do not read your notes.\nMotivate your talk: background, prior work, and why anyone should care.\nDiscuss pros/cons and failure modes.\nDon’t use too many slides; about one per minute is usually enough.\nDon’t overload slides; prioritize figures/tables over dense text.\nInclude key formulas/figures directly in your slides rather than making the audience hunt in the paper.\nUse your own words. Do not plagiarize.\nPractice beforehand. Time yourself.\n\nYou will be assessed by your observers and by me using this form:\nProject Assessment Form"
+  },
+  {
+    "objectID": "pages/policies.html",
+    "href": "pages/policies.html",
+    "title": "Course Policies",
+    "section": "",
+    "text": "UNDER CONSTRUCTIONSpring 2027 preparation is in progress. Schedules, materials, and course policies are provisional.\n\n\n\n\nSpring 2027 course policies, grading weights, collaboration rules, and permitted use of AI are pending instructor review. Policies from previous semesters are not automatically in effect."
+  },
+  {
+    "objectID": "pages/homework.html",
+    "href": "pages/homework.html",
+    "title": "Assignments",
+    "section": "",
+    "text": "UNDER CONSTRUCTIONSpring 2027 preparation is in progress. Schedules, materials, and course policies are provisional.\n\n\n\n\nAssignment instructions, due dates, grading policies, and submission links will be posted after confirmation. No assignments have been released for Spring 2027."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "MATH 574: Bayesian Computational Statistics",
+    "section": "",
+    "text": "UNDER CONSTRUCTIONSpring 2027 preparation is in progress. Schedules, materials, and course policies are provisional."
+  },
+  {
+    "objectID": "index.html#course-overview",
+    "href": "index.html#course-overview",
+    "title": "MATH 574: Bayesian Computational Statistics",
+    "section": "Course Overview",
+    "text": "Course Overview\nA planned course in Bayesian inference and its computational methods, emphasizing Monte Carlo methods. The role of Gaussian processes and the final course scope remain to be decided."
+  },
+  {
+    "objectID": "index.html#instructor",
+    "href": "index.html#instructor",
+    "title": "MATH 574: Bayesian Computational Statistics",
+    "section": "Instructor",
+    "text": "Instructor\n\nFred J. Hickernell · Illinois Institute of Technology\nEmail: hickernell@illinoistech.edu\nOffice hours and teaching-assistant details will be announced."
+  },
+  {
+    "objectID": "index.html#planned-topics",
+    "href": "index.html#planned-topics",
+    "title": "MATH 574: Bayesian Computational Statistics",
+    "section": "Planned Topics",
+    "text": "Planned Topics\nThis is a provisional teaching outline, rather than a finalized syllabus. Textbooks, prerequisites, assessment policies, and optional topics remain to be confirmed.\n\nBayesian Inference: Likelihoods, priors, posteriors, and posterior prediction.\nMonte Carlo Methods: Simulation, Monte Carlo integration, and assessment of sampling error.\nMarkov Chain Monte Carlo: Metropolis methods, computational diagnostics, and effective sample size.\nSelected Topics: Possible Gaussian process models; scope to be decided."
+  },
+  {
+    "objectID": "index.html#course-information",
+    "href": "index.html#course-information",
+    "title": "MATH 574: Bayesian Computational Statistics",
+    "section": "Course Information",
+    "text": "Course Information\n\n\n\nResource\nContents\n\n\n\n\nSchedule\nDraft meeting pattern and topic sequence\n\n\nSlides\nOutline decks under construction\n\n\nNotebooks\nComputational materials as they become available\n\n\nAssignments\nReleased assignments and submission instructions\n\n\nTests\nAssessment information when confirmed\n\n\nProject\nProject requirements and peer assessment\n\n\nResources\nSoftware, statistical questions, and access instructions\n\n\nCanvas\nCourse link pending"
+  },
+  {
+    "objectID": "classlib/classlib/quarto/pages/git-clone-update-with-submodules.html",
+    "href": "classlib/classlib/quarto/pages/git-clone-update-with-submodules.html",
+    "title": "Git setup: clone the course repository and keep it updated",
+    "section": "",
+    "text": "UNDER CONSTRUCTIONSpring 2027 preparation is in progress. Schedules, materials, and course policies are provisional.\nThis course uses a Git repository that includes submodules (shared libraries pulled in as separate Git repositories). To get everything working, you must clone the course repository and initialize the submodules."
+  },
+  {
+    "objectID": "classlib/classlib/quarto/pages/git-clone-update-with-submodules.html#important-do-not-push-to-the-course-repository",
+    "href": "classlib/classlib/quarto/pages/git-clone-update-with-submodules.html#important-do-not-push-to-the-course-repository",
+    "title": "Git setup: clone the course repository and keep it updated",
+    "section": "Important: do not push to the course repository",
+    "text": "Important: do not push to the course repository\nStudents should assume the course repository is read-only:\n\nDo not try to push changes to the course repository.\nIf you see errors like “permission denied” when pushing, that is expected.\n\nYou will not submit homework via Git. Git is used only to:\n\nObtain and update course materials\nExperiment with class notebooks\n\nWhen experimenting, consider working in copies of notebooks or in a separate directory so updates pull cleanly\n\n\nIf you want an online backup of your personal work, you may optionally use your own private repository or a fork (see below)."
+  },
+  {
+    "objectID": "classlib/classlib/quarto/pages/git-clone-update-with-submodules.html#step-0-prerequisites",
+    "href": "classlib/classlib/quarto/pages/git-clone-update-with-submodules.html#step-0-prerequisites",
+    "title": "Git setup: clone the course repository and keep it updated",
+    "section": "Step 0: Prerequisites",
+    "text": "Step 0: Prerequisites\nYou need:\n\nGit installed\nA way to authenticate with GitHub (either SSH or HTTPS)\n\nYour instructor will provide the course repository URL. It looks like one of these:\n\nSSH: git@github.com:ORG/MATHXXXSpring20YY.git\nHTTPS: https://github.com/ORG/MATHXXXSpring20YY.git"
+  },
+  {
+    "objectID": "classlib/classlib/quarto/pages/git-clone-update-with-submodules.html#step-1-clone-the-course-repository-with-submodules",
+    "href": "classlib/classlib/quarto/pages/git-clone-update-with-submodules.html#step-1-clone-the-course-repository-with-submodules",
+    "title": "Git setup: clone the course repository and keep it updated",
+    "section": "Step 1: Clone the course repository with submodules",
+    "text": "Step 1: Clone the course repository with submodules\nChoose one of the following.\n\nOption A (recommended): clone with submodules in one step\nReplace REPO_URL with the URL you were given.\ngit clone --recurse-submodules REPO_URL\n\n\nOption B: clone first, then fetch submodules\ngit clone REPO_URL\ncd MATHXXXSpring20YY\ngit submodule update --init --recursive"
+  },
+  {
+    "objectID": "classlib/classlib/quarto/pages/git-clone-update-with-submodules.html#step-2-verify-you-have-the-submodule-content",
+    "href": "classlib/classlib/quarto/pages/git-clone-update-with-submodules.html#step-2-verify-you-have-the-submodule-content",
+    "title": "Git setup: clone the course repository and keep it updated",
+    "section": "Step 2: Verify you have the submodule content",
+    "text": "Step 2: Verify you have the submodule content\nFrom inside the course repository:\ngit submodule status\nYou should see one or more lines showing submodules and commit hashes. If you see errors or blank output, run:\ngit submodule update --init --recursive"
+  },
+  {
+    "objectID": "classlib/classlib/quarto/pages/git-clone-update-with-submodules.html#keeping-your-local-copy-updated-during-the-semester",
+    "href": "classlib/classlib/quarto/pages/git-clone-update-with-submodules.html#keeping-your-local-copy-updated-during-the-semester",
+    "title": "Git setup: clone the course repository and keep it updated",
+    "section": "Keeping your local copy updated during the semester",
+    "text": "Keeping your local copy updated during the semester\nDo this whenever your instructor says “pull the latest changes.”\nFrom inside the course repository:\ngit pull --ff-only\ngit submodule update --init --recursive\nThat second command is important: it updates submodules to the versions pinned by the course repository."
+  },
+  {
+    "objectID": "classlib/classlib/quarto/pages/git-clone-update-with-submodules.html#if-you-already-made-local-changes",
+    "href": "classlib/classlib/quarto/pages/git-clone-update-with-submodules.html#if-you-already-made-local-changes",
+    "title": "Git setup: clone the course repository and keep it updated",
+    "section": "If you already made local changes",
+    "text": "If you already made local changes\nIf git pull --ff-only fails, it usually means you have local commits or uncommitted changes.\nCheck what changed:\ngit status\n\nIf you only changed files you don’t care about (quick reset)\ngit reset --hard\ngit pull --ff-only\ngit submodule update --init --recursive\n\n\nIf you want to keep your work\nCommit your changes first so they are safely recorded locally.\ngit add -A\ngit commit -m \"My work\"\ngit pull --ff-only\ngit submodule update --init --recursive\nIf the pull still fails, you may need to resolve a merge conflict (ask for help)."
+  },
+  {
+    "objectID": "classlib/classlib/quarto/pages/git-clone-update-with-submodules.html#optional-fork-workflow-push-only-to-your-own-fork",
+    "href": "classlib/classlib/quarto/pages/git-clone-update-with-submodules.html#optional-fork-workflow-push-only-to-your-own-fork",
+    "title": "Git setup: clone the course repository and keep it updated",
+    "section": "Optional: fork workflow (push only to your own fork)",
+    "text": "Optional: fork workflow (push only to your own fork)\nUse this only if you want to push your work to GitHub for backup/versioning.\n\nOne-time setup (fork + clone)\n\nFork the course repository on GitHub into your own GitHub account.\nClone your fork (not the instructor’s course repository) with submodules.\n\nReplace FORK_URL with your fork’s URL:\ngit clone --recurse-submodules FORK_URL\ncd MATHXXXSpring20YY\n\nAdd the instructor’s course repository as upstream so you can pull course updates.\n\nReplace UPSTREAM_URL with the instructor’s course repository URL:\ngit remote add upstream UPSTREAM_URL\ngit remote -v\n\n\nGetting updates from the instructor (sync upstream → your fork)\nFrom inside your cloned fork:\ngit fetch upstream\ngit checkout main\ngit merge --ff-only upstream/main\ngit submodule update --init --recursive\ngit push\nIf the course repository uses a branch other than main (e.g., master), replace main above accordingly."
+  },
+  {
+    "objectID": "classlib/classlib/quarto/pages/git-clone-update-with-submodules.html#common-issues-and-fixes",
+    "href": "classlib/classlib/quarto/pages/git-clone-update-with-submodules.html#common-issues-and-fixes",
+    "title": "Git setup: clone the course repository and keep it updated",
+    "section": "Common issues and fixes",
+    "text": "Common issues and fixes\n\n“fatal: not a git repository”\nYou’re not inside the course repository folder. Change into it:\ncd MATHXXXSpring20YY\n\n\n“Permission denied (publickey)” (SSH)\nYou’re using an SSH URL but your SSH key isn’t set up for GitHub. Use the HTTPS URL instead, or configure SSH.\n\n\nSubmodule errors after pulling\nRe-run the submodule update:\ngit submodule update --init --recursive\n\n\nYou accidentally cloned without submodules\nFrom inside the course repository:\ngit submodule update --init --recursive\n\n\nAvoid updating submodules beyond what the instructor pinned\nStudents should not run git submodule update --remote unless explicitly instructed."
+  },
+  {
+    "objectID": "classlib/classlib/quarto/pages/stats-qs.html",
+    "href": "classlib/classlib/quarto/pages/stats-qs.html",
+    "title": "Big Statistics Questions We Ask",
+    "section": "",
+    "text": "UNDER CONSTRUCTIONSpring 2027 preparation is in progress. Schedules, materials, and course policies are provisional.\n\n\n\n\n\nFilter by course\n\n  \n     MATH 476 Statistics\n     MATH 563 Mathematical Statistics\n     MATH 565 Monte Carlo Methods\n  \n  \n\n\n\nModeling\n\n  Course(s)\n  Big question\n\n\n\n  476, 563, 565\n  \n    What is the population?\n    All US adults? All future units from a production line? All students with bachelor's degree? All continuous functions on a given domain?\n  \n\n\n\n  476, 563, 565\n  \n    What features are we interested in?\n    Mean? Variance? Quantiles? Regression function? Entire distribution?\n  \n\n\n\n  476, 563\n  \n    What does the model fail to capture?\n    Explanatory variables? Interactions? Nonlinearities?\n  \n\n\n\n  476, 563\n  \n    Are the distributional assumptions correct?\n    Normality? Skewness? Heavy tails? Independence?\n  \n\n\n\nSampling\n\n  Course(s)\n  Big question\n\n\n\n  476, 563, 565\n  \n    How do we sample from the population?\n    Independent and identically distributed (IID)? Low discrepancy (LD)? Stratified sampling? Designed experiment?\n  \n\n\n\n  476, 563\n  \n    What can go wrong between intended and actual sampling?\n    Nonresponse and missingness? Measurement error? Coverage error?\n  \n\n\n\nPoint Estimation\n\n  Course(s)\n  Big question\n\n\n\n  476, 563\n  \n    What is the estimand?\n    \n      Parameter vs functional of a distribution\n      What does it mean in context?\n      What is random, what is fixed?\n    \n  \n\n\n\n  563\n  \n    What makes an estimator “optimal”?\n    \n      Loss functions and risk\n      Invariance/equivariance (as appropriate)\n      Benchmarks and lower bounds (when assumptions hold)"
+  },
+  {
+    "objectID": "pages/canvas.html",
+    "href": "pages/canvas.html",
+    "title": "Canvas",
+    "section": "",
+    "text": "UNDER CONSTRUCTIONSpring 2027 preparation is in progress. Schedules, materials, and course policies are provisional.\n\n\n\n\nThe Illinois Tech Canvas course link for Spring 2027 has not yet been confirmed. Grades and submissions will be managed in Canvas once the course is available."
+  },
+  {
+    "objectID": "pages/notebooks.html",
+    "href": "pages/notebooks.html",
+    "title": "Jupyter Notebooks",
+    "section": "",
+    "text": "UNDER CONSTRUCTIONSpring 2027 preparation is in progress. Schedules, materials, and course policies are provisional.\n\n\n\n\nComputational notebooks will be linked here after local execution validation and instructor review. No notebooks have been released for Spring 2027."
+  },
+  {
+    "objectID": "pages/project-assessment.html",
+    "href": "pages/project-assessment.html",
+    "title": "Project Assessment",
+    "section": "",
+    "text": "UNDER CONSTRUCTIONSpring 2027 preparation is in progress. Schedules, materials, and course policies are provisional.\nPlease provide thoughtful, constructive feedback to help your peers improve their communication skills\nPresenter’s name:\nProject title:\nObserver’s name:"
+  },
+  {
+    "objectID": "pages/project-assessment.html#what-are-the-main-points-of-the-presentation",
+    "href": "pages/project-assessment.html#what-are-the-main-points-of-the-presentation",
+    "title": "Project Assessment",
+    "section": "1. What are the main points of the presentation?",
+    "text": "1. What are the main points of the presentation?\nWhat question was addressed? What was the main claim, result, or conclusion?"
+  },
+  {
+    "objectID": "pages/project-assessment.html#what-are-the-strengths-and-weaknesses-of-the-article-or-project",
+    "href": "pages/project-assessment.html#what-are-the-strengths-and-weaknesses-of-the-article-or-project",
+    "title": "Project Assessment",
+    "section": "2. What are the strengths and weaknesses of the article or project?",
+    "text": "2. What are the strengths and weaknesses of the article or project?\nStrengths might include clarity, insight, careful analysis, or convincing evidence. Weaknesses might include unclear assumptions, limited scope, missing comparisons, or questionable conclusions."
+  },
+  {
+    "objectID": "pages/project-assessment.html#what-did-the-presenter-do-well",
+    "href": "pages/project-assessment.html#what-did-the-presenter-do-well",
+    "title": "Project Assessment",
+    "section": "3. What did the presenter do well?",
+    "text": "3. What did the presenter do well?\nOrganization, pacing, explanation of ideas, visuals, examples, or handling of questions."
+  },
+  {
+    "objectID": "pages/project-assessment.html#how-might-the-presenter-have-done-better",
+    "href": "pages/project-assessment.html#how-might-the-presenter-have-done-better",
+    "title": "Project Assessment",
+    "section": "4. How might the presenter have done better?",
+    "text": "4. How might the presenter have done better?\nWhat specific changes would most improve clarity, correctness, or impact?"
+  },
+  {
+    "objectID": "pages/resources.html",
+    "href": "pages/resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "UNDER CONSTRUCTIONSpring 2027 preparation is in progress. Schedules, materials, and course policies are provisional."
+  },
+  {
+    "objectID": "pages/resources.html#course-references",
+    "href": "pages/resources.html#course-references",
+    "title": "Resources",
+    "section": "Course References",
+    "text": "Course References\nTextbook and reference selections remain to be decided."
+  },
+  {
+    "objectID": "pages/resources.html#shared-resources",
+    "href": "pages/resources.html#shared-resources",
+    "title": "Resources",
+    "section": "Shared Resources",
+    "text": "Shared Resources\n\nStatistical questions\nAccessing the repository with submodules\nCourse policies\n\nThe standard computational runtime is the qmcpy environment and Jupyter kernel. Course-specific setup instructions will grow with the notebooks."
+  },
+  {
+    "objectID": "pages/slides.html",
+    "href": "pages/slides.html",
+    "title": "Lecture Slides",
+    "section": "",
+    "text": "UNDER CONSTRUCTIONSpring 2027 preparation is in progress. Schedules, materials, and course policies are provisional.\n\n\n\n\nThese decks are skeleton outlines under construction. They are not completed lecture materials.\n\n\n\nUnit\nDeck\nStatus\n\n\n\n\n1\nBayesian Inference\nOutline only\n\n\n2\nMonte Carlo Methods\nOutline only\n\n\n3\nMarkov Chain Monte Carlo\nOutline only\n\n\n4\nSelected Topics\nOutline only"
+  }
+]

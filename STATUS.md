@@ -30,6 +30,6 @@
 - [x] Configure the intended GitHub origin URL locally.
 - [x] Create the public GitHub repository and configure GitHub Pages.
 - [x] Commit and push the reviewed skeleton.
-- [ ] Verify the live website.
+- [x] Verify the live website and UNDER CONSTRUCTION notice.
 - [x] Register as a current active repository in SharedConfigs `settings/repositories.conf` for sync-active and repo-sweep.
-- [ ] Add shared saved-project registrations when separately authorized.
+- [x] Register Spring2027 Teaching in the shared cross-machine project manifest.

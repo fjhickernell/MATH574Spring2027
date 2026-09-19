@@ -19,7 +19,7 @@ Review the assembled output, including navigation, shared assets, slide links, a
 
 ## Publication
 
-The GitHub workflow mirrors this website/slide assembly and publishes `gh-pages`. Before initial publication, create the intended GitHub repository, configure its `origin` and upstream, and set GitHub Pages to deploy from the `gh-pages` branch root. The public GitHub repository exists and Pages is configured for `gh-pages`. The initial remote deployment is pending verification; local success does not establish remote deployment success.
+The GitHub workflow mirrors this website/slide assembly and publishes `gh-pages`. Before initial publication, create the intended GitHub repository, configure its `origin` and upstream, and set GitHub Pages to deploy from the `gh-pages` branch root. The public GitHub repository exists and Pages is configured for `gh-pages`. The initial remote deployment succeeded and the live website was verified. Continue to treat local and remote validation as separate checks.
 
 An exact `Checkpoint` command authorizes the global validation, handoff review, assessment-confidentiality audit, commit, and push workflow. Do not edit reference or infrastructure repositories as part of this project's checkpoint. Canvas assignment and announcement publication requires the instructor's explicit authorization.
 

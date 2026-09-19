@@ -33,4 +33,4 @@ The canonical public-source checkout is `~/SoftwareRepositories/MATH574Spring202
 
 Public repository: [fjhickernell/MATH574Spring2027](https://github.com/fjhickernell/MATH574Spring2027). GitHub Pages is configured to serve the `gh-pages` branch. Course website: [MATH 574 Spring 2027](https://fjhickernell.github.io/MATH574Spring2027/).
 
-GitHub Actions renders and publishes each push to `main`. The initial source checkpoint is published; the first remote deployment remains pending verification. Local website and slide builds have passed.
+GitHub Actions renders and publishes each push to `main`. The initial source checkpoint is published, the most recent deployment succeeded, and the live website has been verified with its UNDER CONSTRUCTION notice. Local website and slide builds have passed.

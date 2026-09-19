@@ -2,7 +2,7 @@
 
 ## Current State
 
-MATH 574 Spring 2027 has its canonical public checkout in SoftwareRepositories with a local Quarto skeleton, outline decks, a blank dated schedule, pinned library, and prepared publishing workflow. Tuesday/Thursday meetings are assumed for both courses, with times and rooms TBD. The official academic calendar is verified; course policies remain provisional. The intended origin is configured and the repository is registered for sync-active. The public GitHub repository and gh-pages publishing target are created. The initial source checkpoint is published; remote CI/deployment remains pending verification.
+MATH 574 Spring 2027 has its canonical public checkout in SoftwareRepositories with a local Quarto skeleton, outline decks, a blank dated schedule, pinned library, and prepared publishing workflow. Tuesday/Thursday meetings are assumed for both courses, with times and rooms TBD. The official academic calendar is verified; course policies remain provisional. The intended origin is configured and the repository is registered for sync-active. The public GitHub repository and gh-pages publishing target are created. The initial source checkpoint is published; the most recent workflow succeeded and the live website was verified with its UNDER CONSTRUCTION notice.
 
 ## Immediate Next Task
 

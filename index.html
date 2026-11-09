@@ -154,9 +154,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#course-overview" id="toc-course-overview" class="nav-link active" data-scroll-target="#course-overview">Course Overview</a></li>
+  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome">Welcome</a></li>
   <li><a href="#instructor" id="toc-instructor" class="nav-link" data-scroll-target="#instructor">Instructor</a></li>
-  <li><a href="#planned-topics" id="toc-planned-topics" class="nav-link" data-scroll-target="#planned-topics">Planned Topics</a></li>
+  <li><a href="#course-roadmap" id="toc-course-roadmap" class="nav-link" data-scroll-target="#course-roadmap">Proposed Course Roadmap</a>
+  <ul class="collapse">
+  <li><a href="#content-and-hour-budgets" id="toc-content-and-hour-budgets" class="nav-link" data-scroll-target="#content-and-hour-budgets">Content and hour budgets</a></li>
+  <li><a href="#fifteen-teaching-weeks" id="toc-fifteen-teaching-weeks" class="nav-link" data-scroll-target="#fifteen-teaching-weeks">Fifteen teaching weeks</a></li>
+  <li><a href="#how-the-topics-fit-together" id="toc-how-the-topics-fit-together" class="nav-link" data-scroll-target="#how-the-topics-fit-together">How the topics fit together</a></li>
+  </ul></li>
   <li><a href="#course-information" id="toc-course-information" class="nav-link" data-scroll-target="#course-information">Course Information</a></li>
   </ul>
 </nav>
@@ -190,11 +195,12 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div class="key-point">
-<p>This course website is being prepared. Tuesdays and Thursdays are assumed for both Spring courses; meeting times and rooms are TBD. Course policies and requirements await confirmation.</p>
+<p>This course website is being prepared. Tuesdays and Thursdays are assumed; meeting times and rooms are TBD. Assessment policies and the dated teaching schedule await confirmation.</p>
 </div>
-<section id="course-overview" class="level2">
-<h2 class="anchored" data-anchor-id="course-overview">Course Overview</h2>
-<p>A planned course in Bayesian inference and its computational methods, emphasizing Monte Carlo methods. The role of Gaussian processes and the final course scope remain to be decided.</p>
+<section id="welcome" class="level2">
+<h2 class="anchored" data-anchor-id="welcome">Welcome</h2>
+<p>How can we learn from data, express what remains uncertain, and make useful predictions? This course develops Bayesian inference, modeling, computation, and model criticism using Python. We will connect Bayesian, frequentist, and Fisherian perspectives, following Efron and Hastie’s distinction, while making each method’s assumptions and interpretation explicit.</p>
+<p>The required textbook is Agresti et al., <em>Foundations of Bayesian Statistics for Data Scientists: With R and Python</em>. Gelman et al.&nbsp;(BDA), Reich–Ghosh, and Efron–Hastie are supporting references; see <a href="./pages/resources.html">Resources</a>.</p>
 </section>
 <section id="instructor" class="level2">
 <h2 class="anchored" data-anchor-id="instructor">Instructor</h2>
@@ -203,15 +209,157 @@ ul.task-list li input[type="checkbox"] {
 Email: <a href="mailto:hickernell@illinoistech.edu" class="email">hickernell@illinoistech.edu</a></p>
 <p>Office hours and teaching-assistant details will be announced.</p>
 </section>
-<section id="planned-topics" class="level2">
-<h2 class="anchored" data-anchor-id="planned-topics">Planned Topics</h2>
-<p>This is a provisional teaching outline, rather than a finalized syllabus. Textbooks, prerequisites, assessment policies, and optional topics remain to be confirmed.</p>
+<section id="course-roadmap" class="level2">
+<h2 class="anchored" data-anchor-id="course-roadmap">Proposed Course Roadmap</h2>
+<p>Begin with <a href="slides/00-why-bayesian.html">Why Bayesian?</a>, a short motivational introduction to the three inferential perspectives. Then follow Agresti’s chapters in seven decks. The technical introduction in chapter 1—Bayes’ rule, posterior summaries, decisions, and prediction—belongs in <a href="slides/01-bayesian-foundations.html">Foundations</a>, after the opening overview.</p>
+<p>The plan combines Agresti’s progression with the earlier syllabus’s Bayesian foundations, multiparameter normal models, large-sample inference, hierarchical models, posterior computation, regression, and advanced applications.</p>
+<section id="content-and-hour-budgets" class="level3">
+<h3 class="anchored" data-anchor-id="content-and-hour-budgets">Content and hour budgets</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Deck</th>
+<th style="text-align: left;">Agresti</th>
+<th style="text-align: right;">Approximate content hours</th>
+<th style="text-align: right;">Contact-hour version</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">00 · <a href="slides/00-why-bayesian.html">Why Bayesian?</a></td>
+<td style="text-align: left;">Orientation</td>
+<td style="text-align: right;"><p>1</p></td>
+<td style="text-align: right;"><p>1</p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">01 · <a href="slides/01-bayesian-foundations.html">Foundations</a></td>
+<td style="text-align: left;">Chapter 1</td>
+<td style="text-align: right;"><p>4</p></td>
+<td style="text-align: right;"><p>4</p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">02 · <a href="slides/02-proportions.html">Proportions</a></td>
+<td style="text-align: left;">Chapter 2</td>
+<td style="text-align: right;"><p>4</p></td>
+<td style="text-align: right;"><p>4</p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">03 · <a href="slides/03-means-and-normal-models.html">Means and Normal Models</a></td>
+<td style="text-align: left;">Chapter 3</td>
+<td style="text-align: right;"><p>6</p></td>
+<td style="text-align: right;"><p>5.5</p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">04 · <a href="slides/04-linear-models.html">Linear Models</a></td>
+<td style="text-align: left;">Chapter 4</td>
+<td style="text-align: right;"><p>6</p></td>
+<td style="text-align: right;"><p>6</p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">05 · <a href="slides/05-glms-and-hierarchical-models.html">GLMs and Hierarchies</a></td>
+<td style="text-align: left;">Chapter 5</td>
+<td style="text-align: right;"><p>7</p></td>
+<td style="text-align: right;"><p>7</p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">06 · <a href="slides/06-posterior-computation.html">Posterior Computation</a></td>
+<td style="text-align: left;">Chapter 6</td>
+<td style="text-align: right;"><p>6</p></td>
+<td style="text-align: right;"><p>5.5</p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">07 · <a href="slides/07-model-choice-and-extensions.html">Model Choice</a></td>
+<td style="text-align: left;">Chapter 7</td>
+<td style="text-align: right;"><p>6</p></td>
+<td style="text-align: right;"><p>4.5</p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Total</strong></td>
+<td style="text-align: left;"></td>
+<td style="text-align: right;"><strong>40</strong></td>
+<td style="text-align: right;"><strong>37.5</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Fifteen teaching weeks with two 75-minute meetings per week provide <strong>37½ contact hours</strong>. The 40-hour column is a planning sketch; the contact-hour column fits that meeting pattern. It trims half an hour each from approximation detail and advanced computation, and 1½ hours from optional extensions. These budgets include worked examples, discussion, and synthesis. Any examinations or project presentations held in regular class time will require further adjustment.</p>
+</section>
+<section id="fifteen-teaching-weeks" class="level3">
+<h3 class="anchored" data-anchor-id="fifteen-teaching-weeks">Fifteen teaching weeks</h3>
+<p>Teaching-week numbers below exclude Spring Break; the dated <a href="./pages/schedule.html">Schedule</a> counts calendar weeks, including the break. This is a proposed sequence, with no assessment dates assigned.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">Teaching week</th>
+<th style="text-align: left;">Proposed focus</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">1</td>
+<td style="text-align: left;">Why Bayesian?; begin Foundations</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2</td>
+<td style="text-align: left;">Finish Foundations: posterior inference, prediction, and interpretation</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3</td>
+<td style="text-align: left;">Proportions: priors, conjugacy, and posterior prediction</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">Finish Proportions; begin Means and Normal Models</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">5</td>
+<td style="text-align: left;">Means, unknown variance, joint and marginal inference</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">6</td>
+<td style="text-align: left;">Finish normal models and approximations; begin Linear Models</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">7–8</td>
+<td style="text-align: left;">Linear Models: regression, matrix formulation, checking, and regularization</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">9</td>
+<td style="text-align: left;">Finish Linear Models; begin GLMs and Hierarchies</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">10–11</td>
+<td style="text-align: left;">GLMs, partial pooling, hyperpriors, and multilevel prediction</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">12–13</td>
+<td style="text-align: left;">Posterior Computation: Monte Carlo, MCMC, samplers, and diagnostics</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">14</td>
+<td style="text-align: left;">Finish computation; begin Model Choice</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">15</td>
+<td style="text-align: left;">Model comparison, selected extensions, and integrative model critique</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="how-the-topics-fit-together" class="level3">
+<h3 class="anchored" data-anchor-id="how-the-topics-fit-together">How the topics fit together</h3>
 <ul>
-<li><strong>Bayesian Inference:</strong> Likelihoods, priors, posteriors, and posterior prediction.</li>
-<li><strong>Monte Carlo Methods:</strong> Simulation, Monte Carlo integration, and assessment of sampling error.</li>
-<li><strong>Markov Chain Monte Carlo:</strong> Metropolis methods, computational diagnostics, and effective sample size.</li>
-<li><strong>Selected Topics:</strong> Possible Gaussian process models; scope to be decided.</li>
+<li><strong>Foundations before automation:</strong> exact binomial and normal examples make posterior reasoning visible before more complex software fits.</li>
+<li><strong>Hierarchies are core:</strong> exchangeability, partial pooling, and multilevel models retain the older syllabus’s emphasis, including selected starred sections of Agresti.</li>
+<li><strong>Theory supports interpretation:</strong> joint and conditional distributions, large-sample behavior, and normal/Laplace approximations connect inference to its mathematical foundations.</li>
+<li><strong>Computation serves modeling:</strong> a short sampler/diagnostics primer accompanies early software use; the later computation deck explains the algorithms and revisits those models.</li>
+<li><strong>Extensions are selective:</strong> mixtures and fuller multivariate models supplement Agresti. Classification, missingness, networks, or a Gaussian-process illustration compete for the optional time rather than enlarging the course.</li>
 </ul>
+<p>The <a href="https://bayes4ds.rwth-aachen.de/pdf/Bayes4DS-Contents.pdf">Agresti contents and preface</a> guide the chapter sequence. Efron–Hastie’s <a href="https://hastie.su.domains/CASI/"><em>Computer Age Statistical Inference</em></a>, chapters 2–4, supplies the three-perspective framing.</p>
+</section>
 </section>
 <section id="course-information" class="level2">
 <h2 class="anchored" data-anchor-id="course-information">Course Information</h2>
@@ -225,11 +373,11 @@ Email: <a href="mailto:hickernell@illinoistech.edu" class="email">hickernell@ill
 <tbody>
 <tr class="odd">
 <td style="text-align: left;"><a href="./pages/schedule.html">Schedule</a></td>
-<td style="text-align: left;">Draft meeting pattern and topic sequence</td>
+<td style="text-align: left;">Draft meeting pattern; dated content to be assigned</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="./pages/slides.html">Slides</a></td>
-<td style="text-align: left;">Outline decks under construction</td>
+<td style="text-align: left;">Introductory draft and seven chapter-aligned outlines</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><a href="./pages/notebooks.html">Notebooks</a></td>
@@ -249,7 +397,7 @@ Email: <a href="mailto:hickernell@illinoistech.edu" class="email">hickernell@ill
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><a href="./pages/resources.html">Resources</a></td>
-<td style="text-align: left;">Software, statistical questions, and access instructions</td>
+<td style="text-align: left;">Required textbook, references, software, and access instructions</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="./pages/canvas.html">Canvas</a></td>

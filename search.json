@@ -11,7 +11,7 @@
     "href": "pages/schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "UNDER CONSTRUCTIONSpring 2027 preparation is in progress. Schedules, materials, and course policies are provisional.\nBoth Spring 2027 courses are assumed to meet on Tuesdays and Thursdays. MATH 574 meeting time and room: TBD. This blank teaching schedule awaits the official timetable and course-content planning.\nDates follow the Illinois Tech academic calendar, checked September 18, 2026. Week numbers count semester calendar weeks, including Spring Break. Topic and materials cells are intentionally blank."
+    "text": "UNDER CONSTRUCTIONSpring 2027 preparation is in progress. Schedules, materials, and course policies are provisional.\nBoth Spring 2027 courses are assumed to meet on Tuesdays and Thursdays. MATH 574 meeting time and room: TBD. The Welcome-page roadmap proposes the course sequence; date-by-date coverage awaits confirmation of the official timetable and assessment arrangements.\nDates follow the Illinois Tech academic calendar, checked September 18, 2026. Week numbers count semester calendar weeks, including Spring Break. Topic and materials cells are intentionally blank."
   },
   {
     "objectID": "pages/schedule.html#january",
@@ -112,11 +112,11 @@
     "text": "UNDER CONSTRUCTIONSpring 2027 preparation is in progress. Schedules, materials, and course policies are provisional."
   },
   {
-    "objectID": "index.html#course-overview",
-    "href": "index.html#course-overview",
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
     "title": "MATH 574: Bayesian Computational Statistics",
-    "section": "Course Overview",
-    "text": "Course Overview\nA planned course in Bayesian inference and its computational methods, emphasizing Monte Carlo methods. The role of Gaussian processes and the final course scope remain to be decided."
+    "section": "Welcome",
+    "text": "Welcome\nHow can we learn from data, express what remains uncertain, and make useful predictions? This course develops Bayesian inference, modeling, computation, and model criticism using Python. We will connect Bayesian, frequentist, and Fisherian perspectives, following Efron and Hastie’s distinction, while making each method’s assumptions and interpretation explicit.\nThe required textbook is Agresti et al., Foundations of Bayesian Statistics for Data Scientists: With R and Python. Gelman et al. (BDA), Reich–Ghosh, and Efron–Hastie are supporting references; see Resources."
   },
   {
     "objectID": "index.html#instructor",
@@ -126,18 +126,18 @@
     "text": "Instructor\n\nFred J. Hickernell · Illinois Institute of Technology\nEmail: hickernell@illinoistech.edu\nOffice hours and teaching-assistant details will be announced."
   },
   {
-    "objectID": "index.html#planned-topics",
-    "href": "index.html#planned-topics",
+    "objectID": "index.html#course-roadmap",
+    "href": "index.html#course-roadmap",
     "title": "MATH 574: Bayesian Computational Statistics",
-    "section": "Planned Topics",
-    "text": "Planned Topics\nThis is a provisional teaching outline, rather than a finalized syllabus. Textbooks, prerequisites, assessment policies, and optional topics remain to be confirmed.\n\nBayesian Inference: Likelihoods, priors, posteriors, and posterior prediction.\nMonte Carlo Methods: Simulation, Monte Carlo integration, and assessment of sampling error.\nMarkov Chain Monte Carlo: Metropolis methods, computational diagnostics, and effective sample size.\nSelected Topics: Possible Gaussian process models; scope to be decided."
+    "section": "Proposed Course Roadmap",
+    "text": "Proposed Course Roadmap\nBegin with Why Bayesian?, a short motivational introduction to the three inferential perspectives. Then follow Agresti’s chapters in seven decks. The technical introduction in chapter 1—Bayes’ rule, posterior summaries, decisions, and prediction—belongs in Foundations, after the opening overview.\nThe plan combines Agresti’s progression with the earlier syllabus’s Bayesian foundations, multiparameter normal models, large-sample inference, hierarchical models, posterior computation, regression, and advanced applications.\n\nContent and hour budgets\n\n\n\nDeck\nAgresti\nApproximate content hours\nContact-hour version\n\n\n\n\n00 · Why Bayesian?\nOrientation\n1\n1\n\n\n01 · Foundations\nChapter 1\n4\n4\n\n\n02 · Proportions\nChapter 2\n4\n4\n\n\n03 · Means and Normal Models\nChapter 3\n6\n5.5\n\n\n04 · Linear Models\nChapter 4\n6\n6\n\n\n05 · GLMs and Hierarchies\nChapter 5\n7\n7\n\n\n06 · Posterior Computation\nChapter 6\n6\n5.5\n\n\n07 · Model Choice\nChapter 7\n6\n4.5\n\n\nTotal\n\n40\n37.5\n\n\n\nFifteen teaching weeks with two 75-minute meetings per week provide 37½ contact hours. The 40-hour column is a planning sketch; the contact-hour column fits that meeting pattern. It trims half an hour each from approximation detail and advanced computation, and 1½ hours from optional extensions. These budgets include worked examples, discussion, and synthesis. Any examinations or project presentations held in regular class time will require further adjustment.\n\n\nFifteen teaching weeks\nTeaching-week numbers below exclude Spring Break; the dated Schedule counts calendar weeks, including the break. This is a proposed sequence, with no assessment dates assigned.\n\n\n\n\n\n\n\nTeaching week\nProposed focus\n\n\n\n\n1\nWhy Bayesian?; begin Foundations\n\n\n2\nFinish Foundations: posterior inference, prediction, and interpretation\n\n\n3\nProportions: priors, conjugacy, and posterior prediction\n\n\n4\nFinish Proportions; begin Means and Normal Models\n\n\n5\nMeans, unknown variance, joint and marginal inference\n\n\n6\nFinish normal models and approximations; begin Linear Models\n\n\n7–8\nLinear Models: regression, matrix formulation, checking, and regularization\n\n\n9\nFinish Linear Models; begin GLMs and Hierarchies\n\n\n10–11\nGLMs, partial pooling, hyperpriors, and multilevel prediction\n\n\n12–13\nPosterior Computation: Monte Carlo, MCMC, samplers, and diagnostics\n\n\n14\nFinish computation; begin Model Choice\n\n\n15\nModel comparison, selected extensions, and integrative model critique\n\n\n\n\n\nHow the topics fit together\n\nFoundations before automation: exact binomial and normal examples make posterior reasoning visible before more complex software fits.\nHierarchies are core: exchangeability, partial pooling, and multilevel models retain the older syllabus’s emphasis, including selected starred sections of Agresti.\nTheory supports interpretation: joint and conditional distributions, large-sample behavior, and normal/Laplace approximations connect inference to its mathematical foundations.\nComputation serves modeling: a short sampler/diagnostics primer accompanies early software use; the later computation deck explains the algorithms and revisits those models.\nExtensions are selective: mixtures and fuller multivariate models supplement Agresti. Classification, missingness, networks, or a Gaussian-process illustration compete for the optional time rather than enlarging the course.\n\nThe Agresti contents and preface guide the chapter sequence. Efron–Hastie’s Computer Age Statistical Inference, chapters 2–4, supplies the three-perspective framing."
   },
   {
     "objectID": "index.html#course-information",
     "href": "index.html#course-information",
     "title": "MATH 574: Bayesian Computational Statistics",
     "section": "Course Information",
-    "text": "Course Information\n\n\n\nResource\nContents\n\n\n\n\nSchedule\nDraft meeting pattern and topic sequence\n\n\nSlides\nOutline decks under construction\n\n\nNotebooks\nComputational materials as they become available\n\n\nAssignments\nReleased assignments and submission instructions\n\n\nTests\nAssessment information when confirmed\n\n\nProject\nProject requirements and peer assessment\n\n\nResources\nSoftware, statistical questions, and access instructions\n\n\nCanvas\nCourse link pending"
+    "text": "Course Information\n\n\n\nResource\nContents\n\n\n\n\nSchedule\nDraft meeting pattern; dated content to be assigned\n\n\nSlides\nIntroductory draft and seven chapter-aligned outlines\n\n\nNotebooks\nComputational materials as they become available\n\n\nAssignments\nReleased assignments and submission instructions\n\n\nTests\nAssessment information when confirmed\n\n\nProject\nProject requirements and peer assessment\n\n\nResources\nRequired textbook, references, software, and access instructions\n\n\nCanvas\nCourse link pending"
   },
   {
     "objectID": "classlib/classlib/quarto/pages/git-clone-update-with-submodules.html",
@@ -266,11 +266,18 @@
     "text": "UNDER CONSTRUCTIONSpring 2027 preparation is in progress. Schedules, materials, and course policies are provisional."
   },
   {
-    "objectID": "pages/resources.html#course-references",
-    "href": "pages/resources.html#course-references",
+    "objectID": "pages/resources.html#required-textbook",
+    "href": "pages/resources.html#required-textbook",
     "title": "Resources",
-    "section": "Course References",
-    "text": "Course References\nTextbook and reference selections remain to be decided."
+    "section": "Required Textbook",
+    "text": "Required Textbook\nAlan Agresti, Maria Kateri, Ranjini Grove, and Antonietta Mira, Foundations of Bayesian Statistics for Data Scientists: With R and Python, first edition (2026), Chapman & Hall/CRC. Paperback ISBN: 9781041202929.\n\nPublisher information\nContents and preface\nCompanion resources"
+  },
+  {
+    "objectID": "pages/resources.html#additional-references",
+    "href": "pages/resources.html#additional-references",
+    "title": "Resources",
+    "section": "Additional References",
+    "text": "Additional References\nThese books supplement the required textbook:\n\nAndrew Gelman et al., Bayesian Data Analysis, third edition (2013). Author resources and PDF\nBrian J. Reich and Sujit K. Ghosh, Bayesian Statistical Methods: With Applications to Machine Learning, second edition (2026). Publisher information\nBradley Efron and Trevor Hastie, Computer Age Statistical Inference: Algorithms, Evidence, and Data Science. Publisher information"
   },
   {
     "objectID": "pages/resources.html#shared-resources",
@@ -284,6 +291,6 @@
     "href": "pages/slides.html",
     "title": "Lecture Slides",
     "section": "",
-    "text": "UNDER CONSTRUCTIONSpring 2027 preparation is in progress. Schedules, materials, and course policies are provisional.\n\n\n\n\nThese decks are skeleton outlines under construction. They are not completed lecture materials.\n\n\n\nUnit\nDeck\nStatus\n\n\n\n\n1\nBayesian Inference\nOutline only\n\n\n2\nMonte Carlo Methods\nOutline only\n\n\n3\nMarkov Chain Monte Carlo\nOutline only\n\n\n4\nSelected Topics\nOutline only"
+    "text": "UNDER CONSTRUCTIONSpring 2027 preparation is in progress. Schedules, materials, and course policies are provisional.\n\n\n\n\nThe sequence follows Agresti’s seven chapters after a short introduction. The introductory deck is a draft; the chapter decks are scope outlines, with derivations, examples, exercises, and validated notebooks still to develop.\n\n\n\nDeck\nTitle\nMain reading\nStatus\n\n\n\n\n00\nWhy Bayesian?\nOrientation; Efron–Hastie 2–4\nShort introductory draft\n\n\n01\nFoundations\nChapter 1\nScope outline\n\n\n02\nProportions\nChapter 2\nScope outline\n\n\n03\nMeans and Normal Models\nChapter 3\nScope outline\n\n\n04\nLinear Models\nChapter 4\nScope outline\n\n\n05\nGLMs and Hierarchies\nChapter 5\nScope outline\n\n\n06\nPosterior Computation\nChapter 6\nScope outline\n\n\n07\nModel Choice\nChapter 7\nScope outline\n\n\n\nSee the proposed 15-week roadmap for hour budgets and the blend of Agresti with the earlier Bayesian syllabus. See Resources for the required text and supporting references."
   }
 ]

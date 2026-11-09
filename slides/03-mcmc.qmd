@@ -1,21 +1,11 @@
 ---
-title: "Markov Chain Monte Carlo"
-subtitle: "MATH 574 · Spring 2027 · Outline under construction"
-deck_short_title: "Markov Chain Monte Carlo"
-format:
-  revealjs:
-    footer: "© 2027 Fred J. Hickernell · MATH 574 · Outline under construction"
+title: "Course outline updated"
+deck_short_title: "Course outline updated"
+include-in-header:
+  - text: |
+      <meta http-equiv="refresh" content="0; url=06-posterior-computation.html">
 ---
 
-## Course Map
+## Course outline updated
 
-Markov Chain Monte Carlo
-
-- Planned coverage: Metropolis methods, computational diagnostics, and effective sample size
-- Detailed exposition, examples, and exercises pending instructor review
-
-## Materials Pending
-
-- Lecture content to be developed
-- Companion notebooks to be selected and validated
-- Return to the [course website](../index.html)
+Continue to [Posterior Computation](06-posterior-computation.html)

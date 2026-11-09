@@ -1,0 +1,110 @@
+---
+title: "{{< meta course_title >}}"
+deck_id: d02
+deck_title: "{{< meta decks.d02.title >}}"
+deck_short_title: "{{< meta decks.d02.short_title >}}"
+subtitle: |
+  <span class="deck-title">{{< meta deck_title >}}</span><br>
+  <span class="deck-meta">Agresti chapter 2 · Outline under construction</span>
+include-after-body:
+  - text: |
+      <script id="deck-nav-meta" type="application/json">
+      {
+        "deck_prev_file": "{{< meta decks.d01.file >}}",
+        "deck_prev_title": "{{< meta decks.d01.title >}}",
+        "deck_next_file": "{{< meta decks.d03.file >}}",
+        "deck_next_title": "{{< meta decks.d03.title >}}"
+      }
+      </script>
+---
+
+# Course Map {.deck-course-map}
+
+::: {.columns}
+::: {.column width="47%"}
+<h3>Course decks</h3>
+
+- [{{< meta decks.d00.short_title >}}]({{< meta decks.d00.file >}})
+- [{{< meta decks.d01.short_title >}}]({{< meta decks.d01.file >}})
+- [{{< meta decks.d02.short_title >}}]({{< meta decks.d02.file >}}){.current-deck aria-current="page"}
+- [{{< meta decks.d03.short_title >}}]({{< meta decks.d03.file >}})
+- [{{< meta decks.d04.short_title >}}]({{< meta decks.d04.file >}})
+- [{{< meta decks.d05.short_title >}}]({{< meta decks.d05.file >}})
+- [{{< meta decks.d06.short_title >}}]({{< meta decks.d06.file >}})
+- [{{< meta decks.d07.short_title >}}]({{< meta decks.d07.file >}})
+:::
+::: {.column width="6%"}
+:::
+::: {.column width="47%"}
+<h3>In this deck</h3>
+
+::: {.key-point}
+Use a transparent binomial model to connect learning, shrinkage, and prediction
+:::
+
+- [A Single Proportion](#a-single-proportion)
+- [Several Related Proportions](#several-related-proportions)
+- [Sensitivity and Prediction](#sensitivity-and-prediction)
+:::
+:::
+
+# A Single Proportion
+
+- [Beta priors and binomial data](#beta-priors-and-binomial-data)
+- [Inference and future observations](#inference-and-future-observations)
+
+## Beta priors and binomial data
+
+- Derive beta–binomial conjugacy and sequential updating
+- Compare uniform, Jeffreys, and informative priors
+
+Agresti 2.1–2.2
+
+## Inference and future observations
+
+- Posterior intervals and threshold probabilities
+- Posterior predictive counts; Bayes factors require explicit hypotheses
+
+Agresti 2.3
+
+# Several Related Proportions
+
+- [Comparisons and categorical responses](#comparisons-and-categorical-responses)
+- [Toward hierarchical modeling](#toward-hierarchical-modeling)
+
+## Comparisons and categorical responses
+
+- Posterior differences of two proportions and multiple comparisons
+- Multinomial likelihoods and Dirichlet priors
+
+Agresti 2.4–2.5
+
+## Toward hierarchical modeling
+
+- Empirical Bayes estimation of hyperparameters
+- Logit–normal priors and a bridge to partial pooling
+
+Selected Agresti 2.6–2.7
+
+# Sensitivity and Prediction
+
+- [What changes when the sample is small?](#what-changes-when-the-sample-is-small)
+- [Planned Python demonstration](#planned-python-demonstration)
+
+## What changes when the sample is small?
+
+- Prior strength, boundary counts, and posterior uncertainty
+- Compare posterior uncertainty with repeated-sampling performance
+
+Revisit the opening coin example
+
+## Planned Python demonstration
+
+- Exact beta summaries and posterior predictive simulation
+- Compare groups and inspect sensitivity to prior concentration
+
+No companion notebook released yet
+
+::: {.notes}
+This deck is a chapter-aligned scope outline, not completed instructional material. Develop derivations, examples, and exercises before teaching. Planned Python demonstrations have no released notebook link until execution validation and instructor review. The course roadmap on the Welcome page owns the proposed timing.
+:::

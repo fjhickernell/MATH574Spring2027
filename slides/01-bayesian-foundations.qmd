@@ -1,0 +1,111 @@
+---
+title: "{{< meta course_title >}}"
+deck_id: d01
+deck_title: "{{< meta decks.d01.title >}}"
+deck_short_title: "{{< meta decks.d01.short_title >}}"
+subtitle: |
+  <span class="deck-title">{{< meta deck_title >}}</span><br>
+  <span class="deck-meta">Agresti chapter 1 · Outline under construction</span>
+include-after-body:
+  - text: |
+      <script id="deck-nav-meta" type="application/json">
+      {
+        "deck_prev_file": "{{< meta decks.d00.file >}}",
+        "deck_prev_title": "{{< meta decks.d00.title >}}",
+        "deck_next_file": "{{< meta decks.d02.file >}}",
+        "deck_next_title": "{{< meta decks.d02.title >}}"
+      }
+      </script>
+---
+
+# Course Map {.deck-course-map}
+
+::: {.columns}
+::: {.column width="47%"}
+<h3>Course decks</h3>
+
+- [{{< meta decks.d00.short_title >}}]({{< meta decks.d00.file >}})
+- [{{< meta decks.d01.short_title >}}]({{< meta decks.d01.file >}}){.current-deck aria-current="page"}
+- [{{< meta decks.d02.short_title >}}]({{< meta decks.d02.file >}})
+- [{{< meta decks.d03.short_title >}}]({{< meta decks.d03.file >}})
+- [{{< meta decks.d04.short_title >}}]({{< meta decks.d04.file >}})
+- [{{< meta decks.d05.short_title >}}]({{< meta decks.d05.file >}})
+- [{{< meta decks.d06.short_title >}}]({{< meta decks.d06.file >}})
+- [{{< meta decks.d07.short_title >}}]({{< meta decks.d07.file >}})
+:::
+::: {.column width="6%"}
+:::
+::: {.column width="47%"}
+<h3>In this deck</h3>
+
+::: {.key-point}
+Make prior assumptions explicit, update with data, and predict what comes next
+:::
+
+- [Probability and Statistical Models](#probability-and-statistical-models)
+- [Posterior Inference and Prediction](#posterior-inference-and-prediction)
+- [Assumptions and Interpretation](#assumptions-and-interpretation)
+:::
+:::
+
+# Probability and Statistical Models
+
+- [From a sampling model to a likelihood](#from-a-sampling-model-to-a-likelihood)
+- [Prior information and prior prediction](#prior-information-and-prior-prediction)
+
+## From a sampling model to a likelihood
+
+- Conditional probability, Bayes' rule, and the role of a statistical model
+- Sampling distribution versus likelihood; exchangeability and conditional independence
+
+Agresti 1.1–1.3 and selected 1.7 material
+
+## Prior information and prior prediction
+
+- Proper, weakly informative, and improper priors
+- Conjugacy as a transparent example; prior prediction with proper priors
+- Check posterior propriety when using an improper prior
+
+Agresti 1.3 and 1.7
+
+# Posterior Inference and Prediction
+
+- [The posterior and posterior summaries](#the-posterior-and-posterior-summaries)
+- [Intervals, comparisons, and predictions](#intervals-comparisons-and-predictions)
+
+## The posterior and posterior summaries
+
+- Normalizing a posterior; mean, median, and mode
+- Loss, risk, and posterior decisions; shrinkage as a preview
+
+Agresti 1.4
+
+## Intervals, comparisons, and predictions
+
+- Credible and HPD intervals; confidence-interval distinctions
+- Posterior comparisons and the posterior predictive distribution
+
+Agresti 1.5–1.6
+
+# Assumptions and Interpretation
+
+- [Check what the prior and model imply](#check-what-the-prior-and-model-imply)
+- [Planned Python demonstration](#planned-python-demonstration)
+
+## Check what the prior and model imply
+
+- Prior sensitivity, the likelihood principle, and model limitations
+- Link prior prediction, posterior prediction, and substantive interpretation
+
+Agresti 1.7–1.8
+
+## Planned Python demonstration
+
+- A small discrete parameter grid: normalize, summarize, and predict
+- Compare two priors and explain why the answers differ
+
+No companion notebook released yet
+
+::: {.notes}
+This deck is a chapter-aligned scope outline, not completed instructional material. Develop derivations, examples, and exercises before teaching. Planned Python demonstrations have no released notebook link until execution validation and instructor review. The course roadmap on the Welcome page owns the proposed timing.
+:::

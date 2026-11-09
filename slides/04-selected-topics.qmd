@@ -1,21 +1,11 @@
 ---
-title: "Selected Topics"
-subtitle: "MATH 574 · Spring 2027 · Outline under construction"
-deck_short_title: "Selected Topics"
-format:
-  revealjs:
-    footer: "© 2027 Fred J. Hickernell · MATH 574 · Outline under construction"
+title: "Course outline updated"
+deck_short_title: "Course outline updated"
+include-in-header:
+  - text: |
+      <meta http-equiv="refresh" content="0; url=07-model-choice-and-extensions.html">
 ---
 
-## Course Map
+## Course outline updated
 
-Selected Topics
-
-- Planned coverage: Possible Gaussian process models; scope to be decided
-- Detailed exposition, examples, and exercises pending instructor review
-
-## Materials Pending
-
-- Lecture content to be developed
-- Companion notebooks to be selected and validated
-- Return to the [course website](../index.html)
+Continue to [Model Choice](07-model-choice-and-extensions.html)

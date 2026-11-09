@@ -2,9 +2,21 @@
 title: "Resources"
 ---
 
-## Course References
+## Required Textbook
 
-Textbook and reference selections remain to be decided.
+Alan Agresti, Maria Kateri, Ranjini Grove, and Antonietta Mira, *Foundations of Bayesian Statistics for Data Scientists: With R and Python*, first edition (2026), Chapman & Hall/CRC. Paperback ISBN: 9781041202929.
+
+- [Publisher information](https://www.routledge.com/Foundations-of-Bayesian-Statistics-for-Data-Scientists-With-R-and-Python/Agresti-Kateri-Grove-Mira/p/book/9781041202929)
+- [Contents and preface](https://bayes4ds.rwth-aachen.de/pdf/Bayes4DS-Contents.pdf)
+- [Companion resources](https://bayes4ds.rwth-aachen.de/)
+
+## Additional References
+
+These books supplement the required textbook:
+
+- Andrew Gelman et al., *Bayesian Data Analysis*, third edition (2013). [Author resources and PDF](https://sites.stat.columbia.edu/gelman/book/)
+- Brian J. Reich and Sujit K. Ghosh, *Bayesian Statistical Methods: With Applications to Machine Learning*, second edition (2026). [Publisher information](https://www.routledge.com/Bayesian-Statistical-Methods-With-Applications-to-Machine-Learning/Reich-Ghosh/p/book/9781032486321)
+- Bradley Efron and Trevor Hastie, *Computer Age Statistical Inference: Algorithms, Evidence, and Data Science*. [Publisher information](https://www.cambridge.org/core/books/computer-age-statistical-inference/E32C1911ED937D75CE159BBD21684D37)
 
 ## Shared Resources
 

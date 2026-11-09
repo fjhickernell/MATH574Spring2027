@@ -10,11 +10,19 @@ All prior courses, SharedConfigs, GitTracked, and canonical shared-library repos
 
 Use a root Quarto website, an independent RevealJS slide project, course-specific pages and assets, and the pinned `classlib` dependency. Render both projects and assemble slides beneath the website output. Keep schedules and assessment policies semester-specific; never carry forward old Canvas identifiers, staffing, deadlines, or private assessments.
 
-The library is pinned at `1ac2bc4600f331f29672c3d9ade99c804e82d4d6`, matching MATH 565 Fall 2026. HickernellTestArchive is a definite dependency, initialized at `assets/tests/archive/` and pinned to `b5df0257736e7e41c8450cf2bcff65ac9fd89f20`, matching MATH 565 Fall 2026. QMCSoftware/QMCPy is initialized at `qmcpy/`, pinned to `519ccc3eb119e6295c185dc1f13c72ec2790ae59`, matching MATH 565 Fall 2026. All three initialized dependencies are read-only.
+Current initialized dependencies are HickernellAcademicLib at `classlib/` (`83a47281d7763eb8b4b6b2bc1f44412fa531b7f7`), HickernellTestArchive at `assets/tests/archive/` (`cd4e45b5a22bb6756e6123591857ee88632ae41e`), and QMCSoftware/QMCPy at `qmcpy/` (`3c89e7fcbf25056c613d950ad6748d47b3170428`). These recorded Git pins are read-only; the course-outline work does not advance them.
 
 ## Development Direction
 
-First confirm course scope and semester logistics, then develop a representative deck and notebook before expanding the remaining units. MATH 574 emphasizes Bayesian computation and Monte Carlo methods; Gaussian processes remain optional pending an instructor decision.
+Use Agresti et al., *Foundations of Bayesian Statistics for Data Scientists: With R and Python* (2026), as the required textbook. Use Gelman et al. (BDA), Reich–Ghosh, and Efron–Hastie as additional references; the maintained book list and links are in `pages/resources.qmd`.
+
+The slide sequence is Deck 00, Why Bayesian?, followed by Decks 01–07 aligned with Agresti chapters 1–7. Deck 00 motivates Bayesian work and compares Bayesian, frequentist, and Fisherian perspectives using Efron–Hastie chapters 2–4. Keep the technical chapter-1 introduction in Foundations rather than crowding Deck 00.
+
+The proposed Welcome-page roadmap combines the historical syllabus with Agresti: foundations → 00/01; single-parameter inference → 01/02; multiparameter normal models and asymptotics → 03/04; hierarchical models → 05; posterior computation → 06 with an earlier software primer; regression → 04/05; mixtures and selected multivariate topics → 07 supplements. Promote appropriate starred sections on exchangeability, large-sample behavior, matrix formulations, and hierarchies to core course material.
+
+Use the Welcome page as the maintained 15-teaching-week roadmap, with deck identities and hour allocations in `course-metadata.yml`. The approximate content budget totals 40 hours; its 37.5-hour version fits 30 assumed 75-minute meetings. In-class assessments or project presentations reduce that budget further. Preserve the balance of Bayesian inference, modeling, interpretation, computation, and criticism; do not turn the course into a predominantly Monte Carlo course. Gaussian processes are an optional illustration that would displace another extension.
+
+Next review the proposed roadmap and develop a representative chapter deck and Python notebook, retaining the unconfirmed semester logistics. The chapter decks are scope outlines, not finished lessons.
 
 Private assessments use the shared fh-exam workflow in a separate private workspace. Public assessment release follows the global grading-complete boundary.
 

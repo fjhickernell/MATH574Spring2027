@@ -3,7 +3,7 @@ title: "Schedule"
 css: ../assets/css/schedule.css
 ---
 
-Both Spring 2027 courses are assumed to meet on **Tuesdays and Thursdays**. **MATH 574 meeting time and room: TBD.** This blank teaching schedule awaits the official timetable and course-content planning.
+Both Spring 2027 courses are assumed to meet on **Tuesdays and Thursdays**. **MATH 574 meeting time and room: TBD.** The [Welcome-page roadmap](../index.qmd#course-roadmap) proposes the course sequence; date-by-date coverage awaits confirmation of the official timetable and assessment arrangements.
 
 Dates follow the [Illinois Tech academic calendar](https://www.iit.edu/registrar/academic-calendar), checked September 18, 2026. Week numbers count semester calendar weeks, including Spring Break. Topic and materials cells are intentionally blank.
 

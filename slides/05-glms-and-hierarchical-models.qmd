@@ -1,0 +1,110 @@
+---
+title: "{{< meta course_title >}}"
+deck_id: d05
+deck_title: "{{< meta decks.d05.title >}}"
+deck_short_title: "{{< meta decks.d05.short_title >}}"
+subtitle: |
+  <span class="deck-title">{{< meta deck_title >}}</span><br>
+  <span class="deck-meta">Agresti chapter 5 · Outline under construction</span>
+include-after-body:
+  - text: |
+      <script id="deck-nav-meta" type="application/json">
+      {
+        "deck_prev_file": "{{< meta decks.d04.file >}}",
+        "deck_prev_title": "{{< meta decks.d04.title >}}",
+        "deck_next_file": "{{< meta decks.d06.file >}}",
+        "deck_next_title": "{{< meta decks.d06.title >}}"
+      }
+      </script>
+---
+
+# Course Map {.deck-course-map}
+
+::: {.columns}
+::: {.column width="47%"}
+<h3>Course decks</h3>
+
+- [{{< meta decks.d00.short_title >}}]({{< meta decks.d00.file >}})
+- [{{< meta decks.d01.short_title >}}]({{< meta decks.d01.file >}})
+- [{{< meta decks.d02.short_title >}}]({{< meta decks.d02.file >}})
+- [{{< meta decks.d03.short_title >}}]({{< meta decks.d03.file >}})
+- [{{< meta decks.d04.short_title >}}]({{< meta decks.d04.file >}})
+- [{{< meta decks.d05.short_title >}}]({{< meta decks.d05.file >}}){.current-deck aria-current="page"}
+- [{{< meta decks.d06.short_title >}}]({{< meta decks.d06.file >}})
+- [{{< meta decks.d07.short_title >}}]({{< meta decks.d07.file >}})
+:::
+::: {.column width="6%"}
+:::
+::: {.column width="47%"}
+<h3>In this deck</h3>
+
+::: {.key-point}
+Match the response to the model and share information through partial pooling
+:::
+
+- [Generalized Linear Models](#generalized-linear-models)
+- [Hierarchical and Multilevel Models](#hierarchical-and-multilevel-models)
+- [Criticism and Communication](#criticism-and-communication)
+:::
+:::
+
+# Generalized Linear Models
+
+- [Response distributions and link functions](#response-distributions-and-link-functions)
+- [Counts, rates, and overdispersion](#counts-rates-and-overdispersion)
+
+## Response distributions and link functions
+
+- Normal, binomial, and Poisson GLMs
+- Logistic regression, prior scale, separation, and interpretation
+
+Agresti 5.1–5.3
+
+## Counts, rates, and overdispersion
+
+- Poisson and negative-binomial models; exposures and offsets
+- Choose a response model using prediction and substantive constraints
+
+Agresti 5.4–5.5; selected 5.2 examples
+
+# Hierarchical and Multilevel Models
+
+- [Exchangeability and partial pooling](#exchangeability-and-partial-pooling)
+- [Varying effects and repeated observations](#varying-effects-and-repeated-observations)
+
+## Exchangeability and partial pooling
+
+- No pooling, complete pooling, and partial pooling
+- Hyperpriors and the distinction between empirical and full Bayes
+
+Agresti 5.6–5.7; old-syllabus hierarchical core
+
+## Varying effects and repeated observations
+
+- Varying intercepts and slopes; group-level prediction
+- Generalized linear mixed models and repeated measurements
+
+Agresti 5.7–5.8
+
+# Criticism and Communication
+
+- [Check assumptions at every level](#check-assumptions-at-every-level)
+- [Planned Python demonstration](#planned-python-demonstration)
+
+## Check assumptions at every level
+
+- Prior sensitivity, posterior predictive checks, and new-group prediction
+- Use basic sampler diagnostics before trusting a computed posterior
+
+Formal computation and diagnostics follow in Posterior Computation
+
+## Planned Python demonstration
+
+- Compare pooled, separate, and hierarchical fits to one dataset
+- Explain shrinkage and predictive uncertainty for a small group
+
+No companion notebook released yet
+
+::: {.notes}
+This deck is a chapter-aligned scope outline, not completed instructional material. Develop derivations, examples, and exercises before teaching. Planned Python demonstrations have no released notebook link until execution validation and instructor review. The course roadmap on the Welcome page owns the proposed timing.
+:::

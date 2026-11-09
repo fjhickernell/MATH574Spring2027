@@ -1,7 +1,66 @@
 course_number: "MATH 574"
 course_name: "Bayesian Computational Statistics"
 semester: "Spring 2027"
-preparation_status: "Skeleton — details pending instructor confirmation"
+preparation_status: "Chapter-aligned outlines and proposed course roadmap — under construction"
 meeting_days: "Tuesday and Thursday (assumed)"
 meeting_time: "TBD"
 meeting_room: "TBD"
+
+# Proposed content budgets; 30 assumed 75-minute meetings provide 37.5 contact hours.
+decks:
+  d00:
+    title: "Why Bayesian?"
+    short_title: "Why Bayesian?"
+    file: "00-why-bayesian.html"
+    agresti_chapter: "Orientation"
+    planning_hours: 1
+    contact_hours: 1
+  d01:
+    title: "Bayesian Foundations"
+    short_title: "Foundations"
+    file: "01-bayesian-foundations.html"
+    agresti_chapter: "1"
+    planning_hours: 4
+    contact_hours: 4
+  d02:
+    title: "Bayesian Inference for Proportions"
+    short_title: "Proportions"
+    file: "02-proportions.html"
+    agresti_chapter: "2"
+    planning_hours: 4
+    contact_hours: 4
+  d03:
+    title: "Means and Normal Models"
+    short_title: "Means and Normal Models"
+    file: "03-means-and-normal-models.html"
+    agresti_chapter: "3"
+    planning_hours: 6
+    contact_hours: 5.5
+  d04:
+    title: "Bayesian Linear Models"
+    short_title: "Linear Models"
+    file: "04-linear-models.html"
+    agresti_chapter: "4"
+    planning_hours: 6
+    contact_hours: 6
+  d05:
+    title: "GLMs and Hierarchical Models"
+    short_title: "GLMs and Hierarchies"
+    file: "05-glms-and-hierarchical-models.html"
+    agresti_chapter: "5"
+    planning_hours: 7
+    contact_hours: 7
+  d06:
+    title: "Posterior Computation and Diagnostics"
+    short_title: "Posterior Computation"
+    file: "06-posterior-computation.html"
+    agresti_chapter: "6"
+    planning_hours: 6
+    contact_hours: 5.5
+  d07:
+    title: "Model Choice and Extensions"
+    short_title: "Model Choice"
+    file: "07-model-choice-and-extensions.html"
+    agresti_chapter: "7"
+    planning_hours: 6
+    contact_hours: 4.5

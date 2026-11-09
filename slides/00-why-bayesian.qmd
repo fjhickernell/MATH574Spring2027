@@ -1,0 +1,179 @@
+---
+title: "{{< meta course_title >}}"
+deck_id: d00
+deck_title: "{{< meta decks.d00.title >}}"
+deck_short_title: "{{< meta decks.d00.short_title >}}"
+subtitle: |
+  <span class="deck-title">{{< meta deck_title >}}</span><br>
+  <span class="deck-meta">Short introductory draft</span>
+include-after-body:
+  - text: |
+      <script id="deck-nav-meta" type="application/json">
+      {
+        "deck_prev_file": "",
+        "deck_prev_title": "",
+        "deck_next_file": "{{< meta decks.d01.file >}}",
+        "deck_next_title": "{{< meta decks.d01.title >}}"
+      }
+      </script>
+---
+
+# Course Map {.deck-course-map}
+
+::: {.columns}
+::: {.column width="47%"}
+<h3>Course decks</h3>
+
+- [{{< meta decks.d00.short_title >}}]({{< meta decks.d00.file >}}){.current-deck aria-current="page"}
+- [{{< meta decks.d01.short_title >}}]({{< meta decks.d01.file >}})
+- [{{< meta decks.d02.short_title >}}]({{< meta decks.d02.file >}})
+- [{{< meta decks.d03.short_title >}}]({{< meta decks.d03.file >}})
+- [{{< meta decks.d04.short_title >}}]({{< meta decks.d04.file >}})
+- [{{< meta decks.d05.short_title >}}]({{< meta decks.d05.file >}})
+- [{{< meta decks.d06.short_title >}}]({{< meta decks.d06.file >}})
+- [{{< meta decks.d07.short_title >}}]({{< meta decks.d07.file >}})
+:::
+::: {.column width="6%"}
+:::
+::: {.column width="47%"}
+<h3>In this deck</h3>
+
+::: {.key-point}
+Learn from data, express uncertainty, and check the assumptions behind an answer
+:::
+
+- [Why Bayesian?](#why-bayesian)
+- [Three Inferential Viewpoints](#three-inferential-viewpoints)
+- [The Course Ahead](#the-course-ahead)
+:::
+:::
+
+# Why Bayesian?
+
+- [Questions about what we do not know](#questions-about-what-we-do-not-know)
+- [A cycle of learning and criticism](#a-cycle-of-learning-and-criticism)
+
+## Questions about what we do not know
+
+- How effective is a treatment, and how uncertain is that effect?
+- What should we predict for a new person or a new group?
+- How can related groups share information without becoming identical?
+- Which action has the best consequences under uncertainty?
+
+::: {.key-point}
+Bayesian models connect [prior information]{.alert}, data, uncertainty, and prediction
+:::
+
+::: {.notes}
+Motivate the course with one substantive problem rather than a claim that one school always wins. Prior information may come from previous studies, scientific constraints, or a deliberately weak baseline. Its consequences must be examined. Partial pooling and decision analysis are payoffs to revisit later.
+:::
+
+## A cycle of learning and criticism
+
+\begin{gather*}
+\text{question and model} \longrightarrow \text{prior and data} \\
+\longrightarrow \text{posterior and prediction} \longrightarrow \text{checks and revision}
+\end{gather*}
+
+- Carry uncertainty through to predictions and decisions
+- Examine prior sensitivity and predictive performance
+- Use Python to explore models and verify calculations
+
+::: {.key-point}
+A precise posterior still needs a credible model and reliable computation
+:::
+
+# Three Inferential Viewpoints
+
+- [Three lenses on statistical inference](#three-lenses-on-statistical-inference)
+- [One sample, different inferential objects](#one-sample-different-inferential-objects)
+- [Interpret the answer before using it](#interpret-the-answer-before-using-it)
+
+## Three lenses on statistical inference
+
+| Viewpoint | Central question |
+|:---|:---|
+| Bayesian | Given data, model, and prior, what uncertainty remains? |
+| Frequentist | How well does a procedure work over hypothetical repetitions? |
+| Fisherian | What does the observed likelihood support, and what conditioning is relevant? |
+
+::: {.key-point}
+Different emphases, with [overlapping methods]{.alert}
+:::
+
+[Efron–Hastie, chapters 2–4]({{< meta references.eh.url >}})
+
+::: {.notes}
+Paraphrases of Efron and Hastie, Computer Age Statistical Inference, 2016 edition: frequentist definition pp. 13–15; Bayes pp. 23–24; comparison pp. 33–36, especially Fig. 3.5; Fisherian perspective pp. 38–39, 44–46 and 51. Fisher's rationale is not simply Neyman–Wald repeated-sampling decision theory, but Fisherian inference is not pure likelihoodism either: significance tests and sampling arguments also occur. Likelihood, sufficiency, information, and appropriate conditioning are important themes. The categories are not exclusive toolboxes. The book explicitly supports combining Bayesian and frequentist ideas on p. 36.
+:::
+
+## One sample, different inferential objects
+
+Eight heads in ten fixed independent trials, with head probability $\theta$
+
+\begin{gather*}
+L(\theta)\propto \theta^8(1-\theta)^2
+\end{gather*}
+
+| Object | Result | What it describes |
+|:---|:---|:---|
+| Likelihood | $L(0.8)/L(0.5)\approx 6.87$ | Relative support from these data |
+| Confidence interval | $[0.444,\ 0.975]$ | At least 95% repeated-sample coverage |
+| Posterior | $\theta\mid x\sim\operatorname{Beta}(9,3)$ | Uncertainty after a uniform prior |
+
+::: {.notes}
+This is an original illustration, not an example reproduced from CASI. Assume ten trials fixed in advance and independent Bernoulli observations under the model. The MLE is 0.8. The likelihood ratio is 6.8719476736 and is not posterior odds. The interval is the two-sided 95% Clopper–Pearson interval, endpoints 0.4439045377 and 0.9747892737; its coverage is at least 95% over hypothetical repeated samples. A Beta(1,1) prior yields Beta(9,3), posterior mean 0.75 and posterior probability P(theta>0.5|x)=0.96728515625. The confidence interval and posterior answer different questions. Fisherian work can also use confidence and significance arguments; do not assign each object to a mutually exclusive school. Technical derivation belongs in Foundations and Proportions.
+:::
+
+## Interpret the answer before using it
+
+- [Posterior probability]{.alert}: conditional on the observed data, model, and prior
+- [Confidence level]{.alert}: a property of the interval-producing procedure
+- [Likelihood ratio]{.alert}: relative support, without normalizing over parameters
+
+::: {.key-point}
+The question determines which probability statement is relevant
+:::
+
+::: {.notes}
+A p-value, if discussed verbally, is a tail probability under a specified null sampling model, not the probability that the null is true. A continuous prior gives zero probability to the point theta=0.5; assigning positive posterior probability to that point requires prior mass on the hypothesis. Bayesian procedures can and should be evaluated for frequentist performance, predictive calibration, and sensitivity to assumptions.
+:::
+
+# The Course Ahead
+
+- [Our proposed route through the course](#our-proposed-route-through-the-course)
+- [From this overview to Bayesian foundations](#from-this-overview-to-bayesian-foundations)
+
+## Our proposed route through the course
+
+| Deck | Agresti | Planning hours |
+|:---|:---|---:|
+| [{{< meta decks.d00.short_title >}}]({{< meta decks.d00.file >}}) | {{< meta decks.d00.agresti_chapter >}} | {{< meta decks.d00.planning_hours >}} |
+| [{{< meta decks.d01.short_title >}}]({{< meta decks.d01.file >}}) | {{< meta decks.d01.agresti_chapter >}} | {{< meta decks.d01.planning_hours >}} |
+| [{{< meta decks.d02.short_title >}}]({{< meta decks.d02.file >}}) | {{< meta decks.d02.agresti_chapter >}} | {{< meta decks.d02.planning_hours >}} |
+| [{{< meta decks.d03.short_title >}}]({{< meta decks.d03.file >}}) | {{< meta decks.d03.agresti_chapter >}} | {{< meta decks.d03.planning_hours >}} |
+| [{{< meta decks.d04.short_title >}}]({{< meta decks.d04.file >}}) | {{< meta decks.d04.agresti_chapter >}} | {{< meta decks.d04.planning_hours >}} |
+| [{{< meta decks.d05.short_title >}}]({{< meta decks.d05.file >}}) | {{< meta decks.d05.agresti_chapter >}} | {{< meta decks.d05.planning_hours >}} |
+| [{{< meta decks.d06.short_title >}}]({{< meta decks.d06.file >}}) | {{< meta decks.d06.agresti_chapter >}} | {{< meta decks.d06.planning_hours >}} |
+| [{{< meta decks.d07.short_title >}}]({{< meta decks.d07.file >}}) | {{< meta decks.d07.agresti_chapter >}} | {{< meta decks.d07.planning_hours >}} |
+
+40-hour content sketch; the assumed 30 × 75-minute meetings provide 37½ hours
+
+[15-week roadmap and timing adjustments](../index.html#course-roadmap)
+
+::: {.notes}
+The website Welcome page owns the full proposed teaching-week plan and a 37.5-hour contact allocation. The 40-hour sketch includes 2.5 hours of selectable breadth: trim 0.5 in Means and Normal Models, 0.5 in Posterior Computation, and 1.5 in Model Choice. Assessment or project-presentation time within regular meetings would require further adjustment, not extra assumed contact hours. Budgets include worked examples, discussion, and synthesis. Scope and dated assessment arrangements remain provisional.
+:::
+
+## From this overview to Bayesian foundations
+
+- Derive Bayes' rule, the posterior, and posterior prediction
+- Distinguish a sampling distribution from a likelihood
+- Explore estimation, intervals, decisions, and prior sensitivity
+- Carry one example from exact analysis to computation and model criticism
+
+::: {.key-point}
+Next: [{{< meta decks.d01.short_title >}}]({{< meta decks.d01.file >}}), using Agresti chapter 1
+:::
+
+[Required textbook and supporting references](../pages/resources.html)

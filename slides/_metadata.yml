@@ -1,5 +1,6 @@
 metadata-files:
   - ../course-metadata.yml
+  - ../classlib/classlib/quarto/metadata/hickernell-texts.yml
   - ../classlib/classlib/quarto/slides/hickernell-slides.yml
 course_title: "MATH 574 — Spring 2027"
 author: "Fred J. Hickernell"

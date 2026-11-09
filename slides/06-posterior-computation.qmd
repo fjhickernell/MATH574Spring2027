@@ -1,0 +1,110 @@
+---
+title: "{{< meta course_title >}}"
+deck_id: d06
+deck_title: "{{< meta decks.d06.title >}}"
+deck_short_title: "{{< meta decks.d06.short_title >}}"
+subtitle: |
+  <span class="deck-title">{{< meta deck_title >}}</span><br>
+  <span class="deck-meta">Agresti chapter 6 · Outline under construction</span>
+include-after-body:
+  - text: |
+      <script id="deck-nav-meta" type="application/json">
+      {
+        "deck_prev_file": "{{< meta decks.d05.file >}}",
+        "deck_prev_title": "{{< meta decks.d05.title >}}",
+        "deck_next_file": "{{< meta decks.d07.file >}}",
+        "deck_next_title": "{{< meta decks.d07.title >}}"
+      }
+      </script>
+---
+
+# Course Map {.deck-course-map}
+
+::: {.columns}
+::: {.column width="47%"}
+<h3>Course decks</h3>
+
+- [{{< meta decks.d00.short_title >}}]({{< meta decks.d00.file >}})
+- [{{< meta decks.d01.short_title >}}]({{< meta decks.d01.file >}})
+- [{{< meta decks.d02.short_title >}}]({{< meta decks.d02.file >}})
+- [{{< meta decks.d03.short_title >}}]({{< meta decks.d03.file >}})
+- [{{< meta decks.d04.short_title >}}]({{< meta decks.d04.file >}})
+- [{{< meta decks.d05.short_title >}}]({{< meta decks.d05.file >}})
+- [{{< meta decks.d06.short_title >}}]({{< meta decks.d06.file >}}){.current-deck aria-current="page"}
+- [{{< meta decks.d07.short_title >}}]({{< meta decks.d07.file >}})
+:::
+::: {.column width="6%"}
+:::
+::: {.column width="47%"}
+<h3>In this deck</h3>
+
+::: {.key-point}
+Compute posterior expectations reliably and distinguish algorithm failure from model failure
+:::
+
+- [Posterior Simulation](#posterior-simulation)
+- [Constructing Samplers](#constructing-samplers)
+- [Computational Diagnostics](#computational-diagnostics)
+:::
+:::
+
+# Posterior Simulation
+
+- [Monte Carlo estimates and uncertainty](#monte-carlo-estimates-and-uncertainty)
+- [Markov chains and posterior targets](#markov-chains-and-posterior-targets)
+
+## Monte Carlo estimates and uncertainty
+
+- Posterior expectations and directly simulated reference cases
+- Monte Carlo standard errors versus posterior standard deviations
+
+Agresti 6.1; revisit 3.3
+
+## Markov chains and posterior targets
+
+- Transition kernels, invariance, and dependence
+- Why more draws do not repair an incorrectly targeted algorithm
+
+Agresti 6.1
+
+# Constructing Samplers
+
+- [Metropolis and Gibbs updates](#metropolis-and-gibbs-updates)
+- [Hamiltonian methods and approximations](#hamiltonian-methods-and-approximations)
+
+## Metropolis and Gibbs updates
+
+- Metropolis–Hastings acceptance and proposal choices
+- Full conditional distributions and Gibbs sampling
+
+Agresti 6.3 and 6.4.1; old-syllabus computational core
+
+## Hamiltonian methods and approximations
+
+- A conceptual introduction to HMC through Python software
+- Compare sampling with local normal/Laplace approximations
+
+Agresti 6.4.2; supplementary Laplace comparison
+
+# Computational Diagnostics
+
+- [Assess the quality of a simulation](#assess-the-quality-of-a-simulation)
+- [Planned Python demonstration](#planned-python-demonstration)
+
+## Assess the quality of a simulation
+
+- Multiple chains, trace plots, effective sample size, R-hat, and Monte Carlo error
+- Reparameterization and problematic posterior geometry
+
+Agresti 6.2
+
+## Planned Python demonstration
+
+- Revisit an earlier hierarchical fit with deliberately poor and improved sampling
+- Separate computational adequacy from posterior predictive model checks
+
+No companion notebook released yet
+
+::: {.notes}
+This deck is a chapter-aligned scope outline, not completed instructional material. Develop derivations, examples, and exercises before teaching. Planned Python demonstrations have no released notebook link until execution validation and instructor review. The course roadmap on the Welcome page owns the proposed timing.
+:::

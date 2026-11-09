@@ -17,12 +17,13 @@
 
 ## Course Preparation
 
-- [x] Verify the official Spring 2027 academic calendar and record the shared Tuesday/Thursday assumption.
-- [ ] Confirm official course times, rooms, and final examination slots.
+- [x] Verify the official Spring 2027 academic calendar.
+- [x] Confirm MATH 574 meets Tuesday and Thursday, 11:25 AM–12:40 PM.
+- [ ] Confirm the room and final examination slot.
 - [x] Select Agresti et al. as the required textbook, with Gelman et al., Reich–Ghosh, and Efron–Hastie as additional references.
 - [ ] Confirm Canvas course, staffing, and assessment policies.
 - [x] Carry forward the Spring 2026 MATH 563 project requirements and peer assessment form for both Spring courses.
-- [x] Sketch a 15-teaching-week roadmap blending Agresti and the earlier syllabus, with 40-hour and 37.5-hour budgets on Welcome.
+- [x] Sketch a 15-teaching-week roadmap blending Agresti and the earlier syllabus, with 40-hour and 37.5-hour budgets on Schedule and collapsible unit outlines on Welcome.
 - [x] Draft the short Why Bayesian? introduction with Bayesian, frequentist, and Fisherian perspectives.
 - [ ] Review the proposed roadmap and develop the chapter outlines with the instructor.
 - [ ] Develop and review instructional decks and computational notebooks.

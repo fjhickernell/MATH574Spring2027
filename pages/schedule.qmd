@@ -3,11 +3,16 @@ title: "Schedule"
 css: ../assets/css/schedule.css
 ---
 
-Both Spring 2027 courses are assumed to meet on **Tuesdays and Thursdays**. **MATH 574 meeting time and room: TBD.** The [Welcome-page roadmap](../index.qmd#course-roadmap) proposes the course sequence; date-by-date coverage awaits confirmation of the official timetable and assessment arrangements.
+- **MATH 574 meetings:** Tuesdays and Thursdays, **11:25 AM–12:40 PM**.
+- **Room:** to be announced.
+- See the [course outline](../index.qmd#course-roadmap), [proposed teaching plan](#teaching-plan), and [hour budgets](#hour-budgets) for the planned sequence.
+- Date-by-date topic coverage and assessment arrangements are still to be finalized.
 
 Dates follow the [Illinois Tech academic calendar](https://www.iit.edu/registrar/academic-calendar), checked September 18, 2026. Week numbers count semester calendar weeks, including Spring Break. Topic and materials cells are intentionally blank.
 
 ## January
+
+::: {.table-responsive .dated-meetings}
 
 | Week | Date | Topic | Slides / Materials |
 |---:|:---|:---|:---|
@@ -18,7 +23,11 @@ Dates follow the [Illinois Tech academic calendar](https://www.iit.edu/registrar
 | 3 | Tue Jan 26 |  | |
 | 3 | Thu Jan 28 |  | |
 
+:::
+
 ## February
+
+::: {.table-responsive .dated-meetings}
 
 | Week | Date | Topic | Slides / Materials |
 |---:|:---|:---|:---|
@@ -31,7 +40,11 @@ Dates follow the [Illinois Tech academic calendar](https://www.iit.edu/registrar
 | 7 | Tue Feb 23 |  | |
 | 7 | Thu Feb 25 |  | |
 
+:::
+
 ## March
+
+::: {.table-responsive .dated-meetings}
 
 | Week | Date | Topic | Slides / Materials |
 |---:|:---|:---|:---|
@@ -45,7 +58,11 @@ Dates follow the [Illinois Tech academic calendar](https://www.iit.edu/registrar
 | 11 | Thu Mar 25 |  | |
 | 12 | Tue Mar 30 |  | |
 
+:::
+
 ## April
+
+::: {.table-responsive .dated-meetings}
 
 | Week | Date | Topic | Slides / Materials |
 |---:|:---|:---|:---|
@@ -59,12 +76,70 @@ Dates follow the [Illinois Tech academic calendar](https://www.iit.edu/registrar
 | 16 | Tue Apr 27 |  | |
 | 16 | Thu Apr 29 |  | |
 
-The university's last day of courses is Saturday, May 1. Under the assumed Tuesday/Thursday pattern, Thursday, April 29 is the last regular meeting. There are 30 regular meetings, excluding March 16 and March 18 during Spring Break.
+:::
+
+The university's last day of courses is Saturday, May 1. With Tuesday/Thursday meetings, Thursday, April 29 is the last regular meeting. There are 30 regular meetings, excluding March 16 and March 18 during Spring Break.
 
 ## Final Examinations
 
 The university examination period is May 3–8. MATH 574's exact examination slot is pending.
 
+::: {.table-responsive .dated-meetings}
+
 | Week | Date | Topic | Slides / Materials |
 |---:|:---|:---|:---|
 | 17 | TBD, May 3–8 | **Final examination — date, time, and room TBD** | |
+
+:::
+
+## Proposed Teaching Plan {#teaching-plan}
+
+- Teaching-week numbers below exclude Spring Break.
+- The dated schedule above counts calendar weeks, including the break.
+- This sequence is proposed; assessment dates have not been assigned.
+
+<details>
+<summary><strong>Fifteen teaching weeks</strong></summary>
+
+| Teaching week | Proposed focus |
+|---:|:---|
+| 1 | Why Bayesian?; begin Foundations |
+| 2 | Finish Foundations: posterior inference, prediction, and interpretation |
+| 3 | Proportions: priors, conjugacy, and posterior prediction |
+| 4 | Finish Proportions; begin Means and Normal Models |
+| 5 | Means, unknown variance, joint and marginal inference |
+| 6 | Finish normal models and approximations; begin Linear Models |
+| 7–8 | Linear Models: regression, matrix formulation, checking, and regularization |
+| 9 | Finish Linear Models; begin GLMs and Hierarchies |
+| 10–11 | GLMs, partial pooling, hyperpriors, and multilevel prediction |
+| 12–13 | Posterior Computation: Monte Carlo, MCMC, samplers, and diagnostics |
+| 14 | Finish computation; begin Model Choice |
+| 15 | Model comparison, selected extensions, and integrative model critique |
+
+</details>
+
+## Content and Hour Budgets {#hour-budgets}
+
+- **Units:** 60-minute hours.
+- **Available time:** fifteen teaching weeks with two 75-minute meetings per week provide **37½ contact hours**.
+- **Sketch:** a 40-hour planning sketch of possible content.
+- **Plan:** fits the meeting pattern by trimming half an hour each from approximation detail and advanced computation, and 1½ hours from optional extensions.
+- **Included:** worked examples, discussion, and synthesis.
+- **Further adjustment:** examinations or project presentations held in regular class time reduce the content budget.
+
+<details>
+<summary><strong>Hours by deck</strong></summary>
+
+| Deck | Sketch (h) | Plan (h) |
+|:---|---:|---:|
+| 00 · [Why Bayesian?](../slides/00-why-bayesian.html) | {{< meta decks.d00.planning_hours >}} | {{< meta decks.d00.contact_hours >}} |
+| 01 · [Foundations](../slides/01-bayesian-foundations.html) | {{< meta decks.d01.planning_hours >}} | {{< meta decks.d01.contact_hours >}} |
+| 02 · [Proportions](../slides/02-proportions.html) | {{< meta decks.d02.planning_hours >}} | {{< meta decks.d02.contact_hours >}} |
+| 03 · [Means and Normal Models](../slides/03-means-and-normal-models.html) | {{< meta decks.d03.planning_hours >}} | {{< meta decks.d03.contact_hours >}} |
+| 04 · [Linear Models](../slides/04-linear-models.html) | {{< meta decks.d04.planning_hours >}} | {{< meta decks.d04.contact_hours >}} |
+| 05 · [GLMs and Hierarchies](../slides/05-glms-and-hierarchical-models.html) | {{< meta decks.d05.planning_hours >}} | {{< meta decks.d05.contact_hours >}} |
+| 06 · [Posterior Computation](../slides/06-posterior-computation.html) | {{< meta decks.d06.planning_hours >}} | {{< meta decks.d06.contact_hours >}} |
+| 07 · [Model Choice](../slides/07-model-choice-and-extensions.html) | {{< meta decks.d07.planning_hours >}} | {{< meta decks.d07.contact_hours >}} |
+| **Total** | **40** | **37.5** |
+
+</details>

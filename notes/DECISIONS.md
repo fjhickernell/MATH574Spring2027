@@ -24,3 +24,5 @@
 
 
 - November 9, 2026 — Instructor requested a short Deck 00 on why Bayesian and the Bayesian/frequentist/Fisherian distinction following Efron–Hastie. Replace the former four-deck skeleton with Decks 00–07, with the seven technical decks roughly following Agresti chapters 1–7 and retaining the older syllabus's core topics. Put the proposed 15-week/about-40-hour roadmap on Welcome and a compact route in Deck 00. Distinguish the 40-hour content sketch from the 37.5 hours supplied by 30 assumed 75-minute meetings; assessment time remains to allocate.
+
+- November 9, 2026 — Instructor requested the MATH 565 Fall 2026 Welcome-page pattern: concise sections, collapsible unit outlines, and topic bullets. Keep the course outline on Welcome and move the detailed teaching-week plan and hour budgets to Schedule. Confirmed MATH 574 meetings are Tuesdays and Thursdays, 11:25 AM–12:40 PM; the room will be announced. Retain the UNDER CONSTRUCTION banner and provisional assessment arrangements.

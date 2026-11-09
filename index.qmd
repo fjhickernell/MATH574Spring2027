@@ -1,88 +1,187 @@
 ---
-title: "MATH 574: Bayesian Computational Statistics"
+title: "Welcome to MATH 574"
 subtitle: "Spring 2027"
 title-block-banner: false
 ---
 
-::: {.key-point}
-This course website is being prepared. Tuesdays and Thursdays are assumed; meeting times and rooms are TBD. Assessment policies and the dated teaching schedule await confirmation.
-:::
+## Bayesian Computational Statistics
 
-## Welcome
+This is the course website for **MATH 574 — Spring 2027** at Illinois Institute of Technology.
 
-How can we learn from data, express what remains uncertain, and make useful predictions? This course develops Bayesian inference, modeling, computation, and model criticism using Python. We will connect Bayesian, frequentist, and Fisherian perspectives, following Efron and Hastie's distinction, while making each method's assumptions and interpretation explicit.
+- **Classes:** {{< meta meeting_days >}}, {{< meta meeting_time >}}.
+- **Room:** {{< meta meeting_room >}}.
 
-The required textbook is Agresti et al., *Foundations of Bayesian Statistics for Data Scientists: With R and Python*. Gelman et al. (BDA), Reich–Ghosh, and Efron–Hastie are supporting references; see [Resources](pages/resources.qmd).
+## Course Description
 
-## Instructor
+How can we learn from data, express what remains uncertain, and make useful predictions? This course develops:
+
+- Bayesian inference, including posterior summaries, decisions, and prediction.
+- Statistical modeling, from simple examples to regression and hierarchical models.
+- Computation and practical implementation using Python.
+- Model criticism, prior sensitivity, and interpretation of uncertainty.
+- Bayesian, frequentist, and Fisherian perspectives on statistical inference.
+
+<details class="clearfix">
+<summary><strong>Instructor:</strong> Fred J. Hickernell</summary>
 
 [![]({{< meta instructor_photo >}}){.instructor-photo alt="Fred J. Hickernell"}]({{< meta instructor_photo >}})
 
-Fred J. Hickernell · Illinois Institute of Technology\
-Email: <hickernell@illinoistech.edu>
+- *Institution:* Illinois Institute of Technology
+- *Email:* <hickernell@illinoistech.edu>
+- *Office hours:* To be announced
+- *Teaching assistant:* Details to be announced
 
-Office hours and teaching-assistant details will be announced.
+</details>
 
-## Proposed Course Roadmap {#course-roadmap}
+**Textbook:** Agresti et al., *Foundations of Bayesian Statistics for Data Scientists: With R and Python*. See [Resources](pages/resources.qmd#required-textbook) for book details and access links.
 
-Begin with [Why Bayesian?](slides/00-why-bayesian.html), a short motivational introduction to the three inferential perspectives. Then follow Agresti's chapters in seven decks. The technical introduction in chapter 1—Bayes' rule, posterior summaries, decisions, and prediction—belongs in [Foundations](slides/01-bayesian-foundations.html), after the opening overview.
+<details>
+<summary><strong>Recommended resources</strong></summary>
 
-The plan combines Agresti's progression with the earlier syllabus's Bayesian foundations, multiparameter normal models, large-sample inference, hierarchical models, posterior computation, regression, and advanced applications.
+- Gelman et al., *Bayesian Data Analysis* (BDA).
+- Reich–Ghosh, *Bayesian Statistical Methods: With Applications to Machine Learning*.
+- Efron–Hastie, *Computer Age Statistical Inference*; chapters 2–4 supply the three-perspective framing.
+- [Resources](pages/resources.qmd): reference details, software, and access instructions.
+- [Course repository](https://github.com/fjhickernell/MATH574Spring2027).
 
-### Content and hour budgets
+</details>
 
-| Deck | Agresti | Approximate content hours | Contact-hour version |
-|:---|:---|---:|---:|
-| 00 · [Why Bayesian?](slides/00-why-bayesian.html) | Orientation | {{< meta decks.d00.planning_hours >}} | {{< meta decks.d00.contact_hours >}} |
-| 01 · [Foundations](slides/01-bayesian-foundations.html) | Chapter 1 | {{< meta decks.d01.planning_hours >}} | {{< meta decks.d01.contact_hours >}} |
-| 02 · [Proportions](slides/02-proportions.html) | Chapter 2 | {{< meta decks.d02.planning_hours >}} | {{< meta decks.d02.contact_hours >}} |
-| 03 · [Means and Normal Models](slides/03-means-and-normal-models.html) | Chapter 3 | {{< meta decks.d03.planning_hours >}} | {{< meta decks.d03.contact_hours >}} |
-| 04 · [Linear Models](slides/04-linear-models.html) | Chapter 4 | {{< meta decks.d04.planning_hours >}} | {{< meta decks.d04.contact_hours >}} |
-| 05 · [GLMs and Hierarchies](slides/05-glms-and-hierarchical-models.html) | Chapter 5 | {{< meta decks.d05.planning_hours >}} | {{< meta decks.d05.contact_hours >}} |
-| 06 · [Posterior Computation](slides/06-posterior-computation.html) | Chapter 6 | {{< meta decks.d06.planning_hours >}} | {{< meta decks.d06.contact_hours >}} |
-| 07 · [Model Choice](slides/07-model-choice-and-extensions.html) | Chapter 7 | {{< meta decks.d07.planning_hours >}} | {{< meta decks.d07.contact_hours >}} |
-| **Total** | | **40** | **37.5** |
+<details>
+<summary><strong>Objectives</strong></summary>
 
-Fifteen teaching weeks with two 75-minute meetings per week provide **37½ contact hours**. The 40-hour column is a planning sketch; the contact-hour column fits that meeting pattern. It trims half an hour each from approximation detail and advanced computation, and 1½ hours from optional extensions. These budgets include worked examples, discussion, and synthesis. Any examinations or project presentations held in regular class time will require further adjustment.
+By the end of this course, students should be able to:
 
-### Fifteen teaching weeks
+- Formulate a Bayesian model and explain its likelihood, prior, and posterior.
+- Summarize posterior uncertainty and make predictions and decisions.
+- Build and interpret regression and hierarchical models.
+- Use Python for posterior computation and assess the quality of a simulation.
+- Check model assumptions, assess prior sensitivity, and communicate limitations.
+- Distinguish Bayesian, frequentist, and Fisherian interpretations of an analysis.
 
-Teaching-week numbers below exclude Spring Break; the dated [Schedule](pages/schedule.qmd) counts calendar weeks, including the break. This is a proposed sequence, with no assessment dates assigned.
+</details>
 
-| Teaching week | Proposed focus |
-|---:|:---|
-| 1 | Why Bayesian?; begin Foundations |
-| 2 | Finish Foundations: posterior inference, prediction, and interpretation |
-| 3 | Proportions: priors, conjugacy, and posterior prediction |
-| 4 | Finish Proportions; begin Means and Normal Models |
-| 5 | Means, unknown variance, joint and marginal inference |
-| 6 | Finish normal models and approximations; begin Linear Models |
-| 7–8 | Linear Models: regression, matrix formulation, checking, and regularization |
-| 9 | Finish Linear Models; begin GLMs and Hierarchies |
-| 10–11 | GLMs, partial pooling, hyperpriors, and multilevel prediction |
-| 12–13 | Posterior Computation: Monte Carlo, MCMC, samplers, and diagnostics |
-| 14 | Finish computation; begin Model Choice |
-| 15 | Model comparison, selected extensions, and integrative model critique |
+<details>
+<summary><strong>Where to Find It</strong></summary>
 
-### How the topics fit together
+- [Schedule](pages/schedule.qmd): meeting dates, proposed teaching plan, and hour budgets.
+- [Slides](pages/slides.qmd): introductory draft and seven chapter-aligned outlines.
+- [Notebooks](pages/notebooks.qmd): computational materials as they become available.
+- [Assignments](pages/homework.qmd): released assignments and submission instructions.
+- [Tests](pages/tests.qmd): assessment information when confirmed.
+- [Project](pages/project.qmd): project requirements and peer assessment.
+- [Resources](pages/resources.qmd): textbook, references, software, and access instructions.
+- [Course policies](pages/policies.qmd): policies pending instructor review.
+- [Canvas](pages/canvas.qmd): course link pending.
 
-- **Foundations before automation:** exact binomial and normal examples make posterior reasoning visible before more complex software fits.
-- **Hierarchies are core:** exchangeability, partial pooling, and multilevel models retain the older syllabus's emphasis, including selected starred sections of Agresti.
-- **Theory supports interpretation:** joint and conditional distributions, large-sample behavior, and normal/Laplace approximations connect inference to its mathematical foundations.
-- **Computation serves modeling:** a short sampler/diagnostics primer accompanies early software use; the later computation deck explains the algorithms and revisits those models.
-- **Extensions are selective:** mixtures and fuller multivariate models supplement Agresti. Classification, missingness, networks, or a Gaussian-process illustration compete for the optional time rather than enlarging the course.
+</details>
 
-The [Agresti contents and preface](https://bayes4ds.rwth-aachen.de/pdf/Bayes4DS-Contents.pdf) guide the chapter sequence. Efron–Hastie's [*Computer Age Statistical Inference*](https://hastie.su.domains/CASI/), chapters 2–4, supplies the three-perspective framing.
+## Course Outline {#course-roadmap}
 
-## Course Information
+- Begin with **Why Bayesian?**, then follow Agresti's seven chapters.
+- Approximate unit times below use **60-minute hours**. See the [Schedule](pages/schedule.qmd#teaching-plan) for the proposed teaching-week sequence and [hour budgets](pages/schedule.qmd#hour-budgets).
+- Deck 00 is an introductory draft; Decks 01–07 are chapter outlines awaiting development.
 
-| Resource | Contents |
-|:---|:---|
-| [Schedule](pages/schedule.qmd) | Draft meeting pattern; dated content to be assigned |
-| [Slides](pages/slides.qmd) | Introductory draft and seven chapter-aligned outlines |
-| [Notebooks](pages/notebooks.qmd) | Computational materials as they become available |
-| [Assignments](pages/homework.qmd) | Released assignments and submission instructions |
-| [Tests](pages/tests.qmd) | Assessment information when confirmed |
-| [Project](pages/project.qmd) | Project requirements and peer assessment |
-| [Resources](pages/resources.qmd) | Required textbook, references, software, and access instructions |
-| [Canvas](pages/canvas.qmd) | Course link pending |
+<details>
+<summary><strong>00 · {{< meta decks.d00.short_title >}}</strong> — {{< meta decks.d00.contact_hours >}} hour</summary>
+
+[Why Bayesian? slides](slides/00-why-bayesian.html) · Orientation
+
+- Learning from data, expressing uncertainty, and making predictions
+- Bayesian, frequentist, and Fisherian perspectives
+- Assumptions, interpretation, and a cycle of model criticism
+
+</details>
+
+<details>
+<summary><strong>01 · {{< meta decks.d01.short_title >}}</strong> — {{< meta decks.d01.contact_hours >}} hours</summary>
+
+[Foundations slides](slides/01-bayesian-foundations.html) · Agresti chapter 1
+
+- Probability models, likelihood, and Bayes' rule
+- Priors, exchangeability, and conditional independence
+- Posterior summaries, credible intervals, and decisions
+- Prior and posterior prediction; sensitivity and interpretation
+
+</details>
+
+<details>
+<summary><strong>02 · {{< meta decks.d02.short_title >}}</strong> — {{< meta decks.d02.contact_hours >}} hours</summary>
+
+[Proportions slides](slides/02-proportions.html) · Agresti chapter 2
+
+- Beta–binomial updating and prior choices
+- Posterior intervals, comparisons, and predictive counts
+- Multinomial models and Dirichlet priors
+- Empirical Bayes and an introduction to partial pooling
+
+</details>
+
+<details>
+<summary><strong>03 · {{< meta decks.d03.short_title >}}</strong> — {{< meta decks.d03.contact_hours >}} hours</summary>
+
+[Means and Normal Models slides](slides/03-means-and-normal-models.html) · Agresti chapter 3
+
+- Normal models with known and unknown variance
+- Joint, marginal, and conditional posterior distributions
+- Comparing means and introducing multivariate normal structure
+- Exponential families, large-sample behavior, and normal/Laplace approximations
+- Exact calculations and a short software and diagnostics primer
+
+</details>
+
+<details>
+<summary><strong>04 · {{< meta decks.d04.short_title >}}</strong> — {{< meta decks.d04.contact_hours >}} hours</summary>
+
+[Linear Models slides](slides/04-linear-models.html) · Agresti chapter 4
+
+- Bayesian regression, coefficient priors, and predictive distributions
+- Matrix formulation, categorical predictors, and interactions
+- Prior and posterior predictive checks; cross-validation
+- Regularization, uncertainty, and limits of interpretation
+
+</details>
+
+<details>
+<summary><strong>05 · {{< meta decks.d05.short_title >}}</strong> — {{< meta decks.d05.contact_hours >}} hours</summary>
+
+[GLMs and Hierarchies slides](slides/05-glms-and-hierarchical-models.html) · Agresti chapter 5
+
+- Generalized linear models (GLMs), link functions, and response distributions
+- Logistic regression, count models, and overdispersion
+- Exchangeability, partial pooling, and hyperpriors
+- Varying effects, multilevel prediction, and checks at each level
+
+</details>
+
+<details>
+<summary><strong>06 · {{< meta decks.d06.short_title >}}</strong> — {{< meta decks.d06.contact_hours >}} hours</summary>
+
+[Posterior Computation slides](slides/06-posterior-computation.html) · Agresti chapter 6
+
+- Monte Carlo estimates and Monte Carlo error
+- Markov chain Monte Carlo (MCMC), Metropolis–Hastings, and Gibbs sampling
+- Hamiltonian methods and approximation methods
+- Multiple chains, effective sample size, R-hat, and reparameterization
+- Computational diagnostics versus predictive model checks
+
+</details>
+
+<details>
+<summary><strong>07 · {{< meta decks.d07.short_title >}}</strong> — {{< meta decks.d07.contact_hours >}} hours</summary>
+
+[Model Choice slides](slides/07-model-choice-and-extensions.html) · Agresti chapter 7
+
+- Bayes factors, predictive comparison, and model averaging
+- Robustness, sensitivity, and identifiable conclusions
+- Selected mixtures and multivariate models
+- Optional classification, missing-data, network, or Gaussian-process examples
+- An integrative analysis from question to model critique
+
+</details>
+
+## Assessment
+
+- [**Assignments:**](pages/homework.qmd) instructions and submission arrangements will be posted as they are confirmed.
+- [**Project:**](pages/project.qmd) article review or computational study, with a presentation, handout, and assessment of two peers' presentations.
+- [**Tests and final examination:**](pages/tests.qmd) dates, coverage, and allowed materials await confirmation.
+- **Grading weights and course policies:** pending instructor review; see [Course Policies](pages/policies.qmd).

@@ -3,9 +3,9 @@
 > # 🚧 UNDER CONSTRUCTION
 > Spring 2027 preparation is in progress. Schedules, materials, and course policies are provisional.
 
-Quarto course website and teaching-material skeleton for Illinois Tech, taught by Fred J. Hickernell. The Welcome page sketches a 15-week course using Agresti; slides begin with a short Why Bayesian? introduction followed by seven chapter-aligned outlines.
+Quarto course website and teaching-material skeleton for Illinois Tech, taught by Fred J. Hickernell. The Welcome page uses the established course-site sections and collapsible unit outlines; Schedule holds the proposed 15-teaching-week plan and detailed hour budgets. Slides begin with a short Why Bayesian? introduction followed by seven chapter-aligned outlines using Agresti.
 
-This repository is under construction. The Tuesday/Thursday meeting assumption is recorded for both courses, with times and rooms TBD. MATH 563 has a mock dated schedule based on Spring 2026; assessment policies, Canvas links, and staffing remain unconfirmed.
+This repository is under construction. MATH 574 meets Tuesday and Thursday, 11:25 AM–12:40 PM; the room will be announced. Assessment policies, Canvas links, and staffing remain unconfirmed. MATH 563 retains its separate mock dated schedule based on Spring 2026 and its unconfirmed meeting time and room.
 
 ## Local Setup
 
@@ -33,4 +33,4 @@ The canonical public-source checkout is `~/SoftwareRepositories/MATH574Spring202
 
 Public repository: [fjhickernell/MATH574Spring2027](https://github.com/fjhickernell/MATH574Spring2027). GitHub Pages is configured to serve the `gh-pages` branch. Course website: [MATH 574 Spring 2027](https://fjhickernell.github.io/MATH574Spring2027/).
 
-GitHub Actions renders and publishes each push to `main`. The initial deployment was verified with its UNDER CONSTRUCTION notice. The chapter-aligned website and slides pass local renders and assembled link/metadata checks; local browser preview was blocked by the browser URL policy, so the latest layouts still need visual review. A source push and a completed remote deployment are separate checks.
+GitHub Actions renders and publishes each push to `main`. The initial deployment was verified with its UNDER CONSTRUCTION notice. The chapter-aligned website and slides pass local renders and assembled link/metadata checks. The revised Welcome, Schedule, and Lecture Slides pages have been checked in a browser at desktop and narrow widths, including expanded sections and table wrapping. A source push and a completed remote deployment are separate checks.

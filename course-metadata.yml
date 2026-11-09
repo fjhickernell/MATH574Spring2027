@@ -2,11 +2,11 @@ course_number: "MATH 574"
 course_name: "Bayesian Computational Statistics"
 semester: "Spring 2027"
 preparation_status: "Chapter-aligned outlines and proposed course roadmap — under construction"
-meeting_days: "Tuesday and Thursday (assumed)"
-meeting_time: "TBD"
-meeting_room: "TBD"
+meeting_days: "Tuesdays and Thursdays"
+meeting_time: "11:25 AM–12:40 PM"
+meeting_room: "To be announced"
 
-# Proposed content budgets; 30 assumed 75-minute meetings provide 37.5 contact hours.
+# Proposed content budgets; 30 regular 75-minute meetings provide 37.5 contact hours.
 decks:
   d00:
     title: "Why Bayesian?"

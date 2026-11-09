@@ -2,17 +2,31 @@
 title: "Lecture Slides"
 ---
 
-The sequence follows Agresti's seven chapters after a short introduction. The introductory deck is a draft; the chapter decks are scope outlines, with derivations, examples, exercises, and validated notebooks still to develop.
+- The sequence follows Agresti's seven chapters after a short introduction.
+- Deck 00 is an introductory draft; Decks 01–07 are chapter outlines.
+- Derivations, examples, exercises, and validated notebooks remain to develop.
 
-| Deck | Title | Main reading | Status |
-|:---|:---|:---|:---|
-| 00 | [Why Bayesian?](../slides/00-why-bayesian.html) | Orientation; Efron–Hastie 2–4 | Short introductory draft |
-| 01 | [Foundations](../slides/01-bayesian-foundations.html) | Chapter 1 | Scope outline |
-| 02 | [Proportions](../slides/02-proportions.html) | Chapter 2 | Scope outline |
-| 03 | [Means and Normal Models](../slides/03-means-and-normal-models.html) | Chapter 3 | Scope outline |
-| 04 | [Linear Models](../slides/04-linear-models.html) | Chapter 4 | Scope outline |
-| 05 | [GLMs and Hierarchies](../slides/05-glms-and-hierarchical-models.html) | Chapter 5 | Scope outline |
-| 06 | [Posterior Computation](../slides/06-posterior-computation.html) | Chapter 6 | Scope outline |
-| 07 | [Model Choice](../slides/07-model-choice-and-extensions.html) | Chapter 7 | Scope outline |
+| Deck | Main reading |
+|:---|:---|
+| 00 · [Why Bayesian?](../slides/00-why-bayesian.html) | Orientation; Efron–Hastie 2–4 |
+| 01 · [Foundations](../slides/01-bayesian-foundations.html) | Chapter 1 |
+| 02 · [Proportions](../slides/02-proportions.html) | Chapter 2 |
+| 03 · [Means and Normal Models](../slides/03-means-and-normal-models.html) | Chapter 3 |
+| 04 · [Linear Models](../slides/04-linear-models.html) | Chapter 4 |
+| 05 · [GLMs and Hierarchies](../slides/05-glms-and-hierarchical-models.html) | Chapter 5 |
+| 06 · [Posterior Computation](../slides/06-posterior-computation.html) | Chapter 6 |
+| 07 · [Model Choice](../slides/07-model-choice-and-extensions.html) | Chapter 7 |
 
-See the [proposed 15-week roadmap](../index.qmd#course-roadmap) for hour budgets and the blend of Agresti with the earlier Bayesian syllabus. See [Resources](resources.qmd) for the required text and supporting references.
+- [Welcome course outline](../index.qmd#course-roadmap): unit topics and the blend of Agresti with the earlier Bayesian syllabus.
+- [Proposed teaching plan](schedule.qmd#teaching-plan): the 15-week sequence and detailed [hour budgets](schedule.qmd#hour-budgets).
+- [Resources](resources.qmd): required textbook and supporting references.
+
+## How the Topics Fit Together
+
+- **Foundations before automation:** exact binomial and normal examples make posterior reasoning visible before more complex software fits.
+- **Hierarchies are core:** exchangeability, partial pooling, and multilevel models retain the older syllabus's emphasis, including selected starred sections of Agresti.
+- **Theory supports interpretation:** joint and conditional distributions, large-sample behavior, and normal/Laplace approximations connect inference to its mathematical foundations.
+- **Computation serves modeling:** a short sampler/diagnostics primer accompanies early software use; the later computation deck explains the algorithms and revisits those models.
+- **Extensions are selective:** mixtures and fuller multivariate models supplement Agresti. Classification, missingness, networks, or a Gaussian-process illustration compete for the optional time rather than enlarging the course.
+- **Chapter sequence:** follows the [Agresti contents and preface](https://bayes4ds.rwth-aachen.de/pdf/Bayes4DS-Contents.pdf).
+- **Three-perspective framing:** follows Efron–Hastie's [*Computer Age Statistical Inference*](https://hastie.su.domains/CASI/), chapters 2–4.

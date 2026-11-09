@@ -106,5 +106,5 @@ Formal computation and diagnostics follow in Posterior Computation
 No companion notebook released yet
 
 ::: {.notes}
-This deck is a chapter-aligned scope outline, not completed instructional material. Develop derivations, examples, and exercises before teaching. Planned Python demonstrations have no released notebook link until execution validation and instructor review. The course roadmap on the Welcome page owns the proposed timing.
+This deck is a chapter-aligned scope outline, not completed instructional material. Develop derivations, examples, and exercises before teaching. Planned Python demonstrations have no released notebook link until execution validation and instructor review. The Schedule page owns the proposed teaching-week plan and detailed timing allocations.
 :::
